@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS nodered;
+USE nodered;
+
+CREATE TABLE IF NOT EXISTS `nodered`.`users` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) NULL,
+    PRIMARY KEY (ID));

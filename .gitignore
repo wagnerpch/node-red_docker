@@ -1,0 +1,9 @@
+#Arquivos NPM e Node.JS
+.npm/
+lib/
+node_modules/
+.config.nodes*
+.config.runtime*
+.config.users*
+.flows_cred*
+.flows.json*

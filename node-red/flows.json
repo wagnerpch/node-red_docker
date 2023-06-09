@@ -1,0 +1,4745 @@
+[
+    {
+        "id": "4f7eb5c8318c0142",
+        "type": "tab",
+        "label": "Aula 01",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1294ce38a419952a",
+        "type": "tab",
+        "label": "Aula 02",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "06741cc96fcff19b",
+        "type": "tab",
+        "label": "Aula 03",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "38aaec9ef2f061e7",
+        "type": "tab",
+        "label": "Aula 04",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "aca593670d880a52",
+        "type": "tab",
+        "label": "Aula 05",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c56363a9dc90491f",
+        "type": "tab",
+        "label": "Aula 06",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6355d8d96e16c892",
+        "type": "tab",
+        "label": "Aula 06 global",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f09e2b578b08fcac",
+        "type": "tab",
+        "label": "Aula 07",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "74bbb9bc4b6cfdfa",
+        "type": "tab",
+        "label": "Aula 08",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fbc80b2589d6a9e2",
+        "type": "tab",
+        "label": "Aula 09",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "180b10df18c6b35a",
+        "type": "tab",
+        "label": "Aula 10",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "98ae268c6e840251",
+        "type": "tab",
+        "label": "Aula 11",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6b73a06afe406ecd",
+        "type": "tab",
+        "label": "Aula 12",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0160cf7dc4564cbb",
+        "type": "tab",
+        "label": "Aula 13",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0dae489d55098e98",
+        "type": "tab",
+        "label": "Aula 14",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5bd83a1f61d23d00",
+        "type": "tab",
+        "label": "Aula 15",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7a7fdd1d5a078863",
+        "type": "tab",
+        "label": "Aula 16",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8b70260efeaa049f",
+        "type": "tab",
+        "label": "Aula 17",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "812346a9ddb5f9f8",
+        "type": "tab",
+        "label": "Aula 18",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f2ddd0dab01ea43b",
+        "type": "tab",
+        "label": "Aula 19",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "43695431050d3e18",
+        "type": "tab",
+        "label": "Aula 20",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f13c06462febccb0",
+        "type": "tab",
+        "label": "Aula 21",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f99b36244abf4e44",
+        "type": "tab",
+        "label": "Aula 22",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e95aa9be8f0bf708",
+        "type": "tab",
+        "label": "Aula 23",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3771d325fdbbdcf1",
+        "type": "tab",
+        "label": "Aula 24",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "184c87e140abe347",
+        "type": "tab",
+        "label": "Aula 25",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b417c2f428832eca",
+        "type": "tab",
+        "label": "Aula 26",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1551dc015949f242",
+        "type": "tab",
+        "label": "Aula 27",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4e8bf59433ad9f2c",
+        "type": "tab",
+        "label": "Aula 28",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ed03bf7f07dd9770",
+        "type": "tab",
+        "label": "Aula 29",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "07af216d578caf33",
+        "type": "tab",
+        "label": "Aula 30",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ec8128327cee15c9",
+        "type": "tab",
+        "label": "Aula 31-36",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1dcb5c787b5aea6d",
+        "type": "tab",
+        "label": "Aula 37",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "08eb2ba8ad1fb324",
+        "type": "tab",
+        "label": "Aula 38",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "77a2f268fd59c272",
+        "type": "tab",
+        "label": "Aula 39",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "76d4e11f61cbdaaf",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "337137b93aadfdb2",
+        "type": "ui_tab",
+        "name": "Curso Node-RED",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "58639ce99d0e715f",
+        "type": "ui_group",
+        "name": "Cursos",
+        "tab": "337137b93aadfdb2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "498825e1804a4a6a",
+        "type": "ui_tab",
+        "name": "Gráficos",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f482069eb474bc84",
+        "type": "ui_group",
+        "name": "Gráficos 1",
+        "tab": "498825e1804a4a6a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "909782f70a37654b",
+        "type": "ui_group",
+        "name": "Gráficos 2",
+        "tab": "498825e1804a4a6a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2fc0b02eb65af95c",
+        "type": "ui_tab",
+        "name": "Aula 29",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2fb107fd54f8143a",
+        "type": "ui_group",
+        "name": "Peças Boas",
+        "tab": "2fc0b02eb65af95c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "13bc8c9f257860b9",
+        "type": "ui_group",
+        "name": "Peças Ruins",
+        "tab": "2fc0b02eb65af95c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d6d6637bd20a31fc",
+        "type": "ui_group",
+        "name": "Controles",
+        "tab": "2fc0b02eb65af95c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f237a4acf1367688",
+        "type": "ui_tab",
+        "name": "Aula 30",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cc315892cdac1f4f",
+        "type": "ui_group",
+        "name": "Controles",
+        "tab": "f237a4acf1367688",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e9ee1331285cb59c",
+        "type": "ui_group",
+        "name": "Peças Boas",
+        "tab": "f237a4acf1367688",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "461f6548f8c0dcdd",
+        "type": "ui_group",
+        "name": "Peças Ruins",
+        "tab": "f237a4acf1367688",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cc886c8dcbb63add",
+        "type": "inject",
+        "z": "4f7eb5c8318c0142",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "f232184a2c61870b"
+            ]
+        ]
+    },
+    {
+        "id": "f232184a2c61870b",
+        "type": "debug",
+        "z": "4f7eb5c8318c0142",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4fec2750f7239221",
+        "type": "debug",
+        "z": "1294ce38a419952a",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "canal",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f7397253408c6213",
+        "type": "inject",
+        "z": "1294ce38a419952a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "canal",
+                "v": "CFB Cursos",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "4fec2750f7239221"
+            ]
+        ]
+    },
+    {
+        "id": "d993a6ddb846e33d",
+        "type": "debug",
+        "z": "1294ce38a419952a",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "canal",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "fc3e2e93c4d80b44",
+        "type": "inject",
+        "z": "1294ce38a419952a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "canal",
+                "v": "13",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 140,
+        "wires": [
+            [
+                "d993a6ddb846e33d"
+            ]
+        ]
+    },
+    {
+        "id": "3c167b79f0afec47",
+        "type": "debug",
+        "z": "06741cc96fcff19b",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "60d37b3241ddc49a",
+        "type": "function",
+        "z": "06741cc96fcff19b",
+        "name": "function 15",
+        "func": "let data = new Date(msg.payload)\nmsg.payload = data.toString()\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 80,
+        "wires": [
+            [
+                "3c167b79f0afec47"
+            ]
+        ]
+    },
+    {
+        "id": "4b93f3571e71d825",
+        "type": "inject",
+        "z": "06741cc96fcff19b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "canal",
+                "v": "CFB Cursos",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 80,
+        "wires": [
+            [
+                "60d37b3241ddc49a"
+            ]
+        ]
+    },
+    {
+        "id": "eca27ac18d291a02",
+        "type": "debug",
+        "z": "06741cc96fcff19b",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "canal",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "af0eb576cc202146",
+        "type": "function",
+        "z": "06741cc96fcff19b",
+        "name": "function 16",
+        "func": "msg.canal = Math.random() * 10\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 160,
+        "wires": [
+            [
+                "eca27ac18d291a02"
+            ]
+        ]
+    },
+    {
+        "id": "6619a2e3be204ef9",
+        "type": "inject",
+        "z": "06741cc96fcff19b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "canal",
+                "v": "CFB Cursos",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "af0eb576cc202146"
+            ]
+        ]
+    },
+    {
+        "id": "ed9c80e73aae3fc4",
+        "type": "comment",
+        "z": "06741cc96fcff19b",
+        "name": "",
+        "info": "No nó timestamp é possível\nprogramar um timer para repetir\na injeção",
+        "x": 180,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b073793e897b2ffe",
+        "type": "inject",
+        "z": "38aaec9ef2f061e7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 60,
+        "wires": [
+            [
+                "29c89b7f126f351a"
+            ]
+        ]
+    },
+    {
+        "id": "3ece702a5f419cf5",
+        "type": "debug",
+        "z": "38aaec9ef2f061e7",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "29c89b7f126f351a",
+        "type": "random",
+        "z": "38aaec9ef2f061e7",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "3ece702a5f419cf5"
+            ]
+        ]
+    },
+    {
+        "id": "bb1792cb18ee0657",
+        "type": "inject",
+        "z": "aca593670d880a52",
+        "name": "entrada1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "canal",
+                "v": "Teste",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "entrada1",
+        "payloadType": "str",
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "d057e567128cfcdf"
+            ]
+        ]
+    },
+    {
+        "id": "3d119dbb481fa374",
+        "type": "debug",
+        "z": "aca593670d880a52",
+        "name": "s1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d057e567128cfcdf",
+        "type": "function",
+        "z": "aca593670d880a52",
+        "name": "function",
+        "func": "if(msg.payload == 'entrada1')\n{\n    msg.payload = Math.random()*10\n    return [msg,null]\n}else if(msg.payload == 'entrada2')\n{\n    msg.payload = (Math.random()*100)+100\n    return [null,msg]\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 80,
+        "wires": [
+            [
+                "3d119dbb481fa374"
+            ],
+            [
+                "2aafd9521f42e3a1"
+            ]
+        ]
+    },
+    {
+        "id": "2aafd9521f42e3a1",
+        "type": "debug",
+        "z": "aca593670d880a52",
+        "name": "s2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "9de576c413b394fc",
+        "type": "inject",
+        "z": "aca593670d880a52",
+        "name": "entrada2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "entrada2",
+        "payloadType": "str",
+        "x": 140,
+        "y": 120,
+        "wires": [
+            [
+                "d057e567128cfcdf"
+            ]
+        ]
+    },
+    {
+        "id": "160b8f77799e581c",
+        "type": "debug",
+        "z": "c56363a9dc90491f",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8620397443ea92df",
+        "type": "inject",
+        "z": "c56363a9dc90491f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "c437696a3e28ebce"
+            ]
+        ]
+    },
+    {
+        "id": "c437696a3e28ebce",
+        "type": "function",
+        "z": "c56363a9dc90491f",
+        "name": "function 1",
+        "func": "var cont = global.get('contador') || 0\ncont += 1\nglobal.set('contador', cont)\nmsg.payload = global.get('contador')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "160b8f77799e581c"
+            ]
+        ]
+    },
+    {
+        "id": "c1f33cc1552cdc67",
+        "type": "debug",
+        "z": "c56363a9dc90491f",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "b7605a64296471a0",
+        "type": "inject",
+        "z": "c56363a9dc90491f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "af24f2a393ae83fa"
+            ]
+        ]
+    },
+    {
+        "id": "af24f2a393ae83fa",
+        "type": "function",
+        "z": "c56363a9dc90491f",
+        "name": "function 2",
+        "func": "var cont = global.get('contador') || 0\ncont += 1\nglobal.set('contador', cont)\nmsg.payload = global.get('contador')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 280,
+        "wires": [
+            [
+                "c1f33cc1552cdc67"
+            ]
+        ]
+    },
+    {
+        "id": "cdcfdd9743f44ec2",
+        "type": "debug",
+        "z": "6355d8d96e16c892",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "2b53070e5b6e7473",
+        "type": "inject",
+        "z": "6355d8d96e16c892",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 100,
+        "wires": [
+            [
+                "ef41b4edd14abdcd"
+            ]
+        ]
+    },
+    {
+        "id": "ef41b4edd14abdcd",
+        "type": "function",
+        "z": "6355d8d96e16c892",
+        "name": "function 3",
+        "func": "var cont = global.get('contador') || 0\ncont += 1\nglobal.set('contador', cont)\nmsg.payload = global.get('contador')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 100,
+        "wires": [
+            [
+                "cdcfdd9743f44ec2"
+            ]
+        ]
+    },
+    {
+        "id": "cb46d34c47a353ff",
+        "type": "debug",
+        "z": "f09e2b578b08fcac",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.telefone[1]",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9e01dbe9ba68f051",
+        "type": "inject",
+        "z": "f09e2b578b08fcac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 100,
+        "wires": [
+            [
+                "3f56dd87f993c385"
+            ]
+        ]
+    },
+    {
+        "id": "3f56dd87f993c385",
+        "type": "function",
+        "z": "f09e2b578b08fcac",
+        "name": "function 4",
+        "func": "var obj={\n    \"nome\": \"Bruno\",\n    \"canal\": \"CFB Cursos\",\n    \"curso\": \"Node Red\",\n    \"telefone\": [\"11111-1111\",\"22222-2222\",\"33333-3333\"],\n} //adicionar um objeto JSON\nmsg.payload=obj\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 100,
+        "wires": [
+            [
+                "cb46d34c47a353ff"
+            ]
+        ]
+    },
+    {
+        "id": "5b9dd144379d7c8d",
+        "type": "debug",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "cee1492e271d67ec",
+        "type": "inject",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "31",
+        "payloadType": "num",
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "4e99269bb1f2b732"
+            ]
+        ]
+    },
+    {
+        "id": "326c6061d1474e29",
+        "type": "debug",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4e99269bb1f2b732",
+        "type": "switch",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "30",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "31",
+                "vt": "num",
+                "v2": "59",
+                "v2t": "num"
+            },
+            {
+                "t": "gte",
+                "v": "60",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "5b9dd144379d7c8d"
+            ],
+            [
+                "326c6061d1474e29"
+            ],
+            [
+                "7a3e251dd0796397"
+            ]
+        ]
+    },
+    {
+        "id": "7a3e251dd0796397",
+        "type": "debug",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "67fe235998311835",
+        "type": "function",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "function 5",
+        "func": "msg.payload = \"Reprovado\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 320,
+        "wires": [
+            [
+                "77b8c26112fe6521"
+            ]
+        ]
+    },
+    {
+        "id": "c0b043d1a334eec2",
+        "type": "function",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "function 6",
+        "func": "msg.payload = \"Recuperação\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 380,
+        "wires": [
+            [
+                "77b8c26112fe6521"
+            ]
+        ]
+    },
+    {
+        "id": "7de50790003346cd",
+        "type": "function",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "function 7",
+        "func": "msg.payload = \"Aprovado\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 440,
+        "wires": [
+            [
+                "77b8c26112fe6521"
+            ]
+        ]
+    },
+    {
+        "id": "74da9761beabef52",
+        "type": "switch",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "30",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "31",
+                "vt": "num",
+                "v2": "59",
+                "v2t": "num"
+            },
+            {
+                "t": "gte",
+                "v": "60",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 350,
+        "y": 380,
+        "wires": [
+            [
+                "67fe235998311835"
+            ],
+            [
+                "c0b043d1a334eec2"
+            ],
+            [
+                "7de50790003346cd"
+            ]
+        ]
+    },
+    {
+        "id": "eb999b117cb4213b",
+        "type": "inject",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "30",
+        "payloadType": "num",
+        "x": 170,
+        "y": 380,
+        "wires": [
+            [
+                "74da9761beabef52"
+            ]
+        ]
+    },
+    {
+        "id": "77b8c26112fe6521",
+        "type": "debug",
+        "z": "74bbb9bc4b6cfdfa",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "e6f3129183f70bb1",
+        "type": "switch",
+        "z": "fbc80b2589d6a9e2",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "30",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "31",
+                "vt": "num",
+                "v2": "59",
+                "v2t": "num"
+            },
+            {
+                "t": "gte",
+                "v": "60",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 330,
+        "y": 160,
+        "wires": [
+            [
+                "08ab1ca4d9e0c040"
+            ],
+            [
+                "9ee9d96b2d554cc2"
+            ],
+            [
+                "a122e13fcda22a9b"
+            ]
+        ]
+    },
+    {
+        "id": "8a2d89803fec3de5",
+        "type": "inject",
+        "z": "fbc80b2589d6a9e2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "42",
+        "payloadType": "num",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "e6f3129183f70bb1"
+            ]
+        ]
+    },
+    {
+        "id": "9ee9d96b2d554cc2",
+        "type": "change",
+        "z": "fbc80b2589d6a9e2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Recuperação",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 160,
+        "wires": [
+            [
+                "ab5f37e6c11e8b4a"
+            ]
+        ]
+    },
+    {
+        "id": "08ab1ca4d9e0c040",
+        "type": "change",
+        "z": "fbc80b2589d6a9e2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Reprovado",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 100,
+        "wires": [
+            [
+                "ab5f37e6c11e8b4a"
+            ]
+        ]
+    },
+    {
+        "id": "a122e13fcda22a9b",
+        "type": "change",
+        "z": "fbc80b2589d6a9e2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Aprovado",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "ab5f37e6c11e8b4a"
+            ]
+        ]
+    },
+    {
+        "id": "ab5f37e6c11e8b4a",
+        "type": "template",
+        "z": "fbc80b2589d6a9e2",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "O resultado é: {{payload}} !",
+        "output": "str",
+        "x": 760,
+        "y": 160,
+        "wires": [
+            [
+                "60c0f9287a300f69"
+            ]
+        ]
+    },
+    {
+        "id": "60c0f9287a300f69",
+        "type": "debug",
+        "z": "fbc80b2589d6a9e2",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "44fb145c933a47d3",
+        "type": "inject",
+        "z": "180b10df18c6b35a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 210,
+        "y": 120,
+        "wires": [
+            [
+                "e59aa103b1b161db"
+            ]
+        ]
+    },
+    {
+        "id": "02eb873eccaa51db",
+        "type": "debug",
+        "z": "180b10df18c6b35a",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e59aa103b1b161db",
+        "type": "range",
+        "z": "180b10df18c6b35a",
+        "minin": "0",
+        "maxin": "10",
+        "minout": "0",
+        "maxout": "100",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 360,
+        "y": 120,
+        "wires": [
+            [
+                "02eb873eccaa51db"
+            ]
+        ]
+    },
+    {
+        "id": "870b0ea70a99318c",
+        "type": "inject",
+        "z": "98ae268c6e840251",
+        "name": "entrada",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Mensagem do topic",
+        "payload": "Mensagem do payload",
+        "payloadType": "str",
+        "x": 250,
+        "y": 180,
+        "wires": [
+            [
+                "1511ffb8925bf27b",
+                "049e53257e26a4a4"
+            ]
+        ]
+    },
+    {
+        "id": "1511ffb8925bf27b",
+        "type": "delay",
+        "z": "98ae268c6e840251",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 380,
+        "y": 260,
+        "wires": [
+            [
+                "f978cad7864647b8"
+            ]
+        ]
+    },
+    {
+        "id": "f978cad7864647b8",
+        "type": "function",
+        "z": "98ae268c6e840251",
+        "name": "function 8",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 340,
+        "wires": [
+            [
+                "21463d41c30c6b23"
+            ]
+        ]
+    },
+    {
+        "id": "21463d41c30c6b23",
+        "type": "debug",
+        "z": "98ae268c6e840251",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "049e53257e26a4a4",
+        "type": "function",
+        "z": "98ae268c6e840251",
+        "name": "function 9",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 180,
+        "wires": [
+            [
+                "a4c3105caa386203"
+            ]
+        ]
+    },
+    {
+        "id": "a4c3105caa386203",
+        "type": "debug",
+        "z": "98ae268c6e840251",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "267005c0960d29f8",
+        "type": "inject",
+        "z": "6b73a06afe406ecd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 250,
+        "y": 100,
+        "wires": [
+            [
+                "6ea0d1db3b5b50fd"
+            ]
+        ]
+    },
+    {
+        "id": "1f5c881e9212b8e9",
+        "type": "debug",
+        "z": "6b73a06afe406ecd",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "6ea0d1db3b5b50fd",
+        "type": "trigger",
+        "z": "6b73a06afe406ecd",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "-1",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 500,
+        "y": 100,
+        "wires": [
+            [
+                "1f5c881e9212b8e9"
+            ]
+        ]
+    },
+    {
+        "id": "abcc0e8b33286017",
+        "type": "inject",
+        "z": "6b73a06afe406ecd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "-1",
+        "payloadType": "num",
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "6ea0d1db3b5b50fd"
+            ]
+        ]
+    },
+    {
+        "id": "ddf3b4c569280820",
+        "type": "inject",
+        "z": "6b73a06afe406ecd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 250,
+        "y": 280,
+        "wires": [
+            [
+                "6ea0d1db3b5b50fd"
+            ]
+        ]
+    },
+    {
+        "id": "973fc4f0f2347367",
+        "type": "http in",
+        "z": "0160cf7dc4564cbb",
+        "name": "",
+        "url": "/teste1",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "4178a18d4678fe29"
+            ]
+        ]
+    },
+    {
+        "id": "4178a18d4678fe29",
+        "type": "function",
+        "z": "0160cf7dc4564cbb",
+        "name": "function 10",
+        "func": "msg.payload=\"Mudei o valor do payload\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "a8449e9574a0c761"
+            ]
+        ]
+    },
+    {
+        "id": "a8449e9574a0c761",
+        "type": "template",
+        "z": "0160cf7dc4564cbb",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<html>\n    <head>\n        <h1>Teste aula 13<h1/>\n    </head>\n    <body>\n        <p>{{payload}}</p>\n    </body>\n</html>",
+        "output": "str",
+        "x": 580,
+        "y": 120,
+        "wires": [
+            [
+                "fd1f1222050e736d"
+            ]
+        ]
+    },
+    {
+        "id": "fd1f1222050e736d",
+        "type": "http response",
+        "z": "0160cf7dc4564cbb",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 770,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "56fa68968b818d5d",
+        "type": "http in",
+        "z": "0dae489d55098e98",
+        "name": "",
+        "url": "/canal",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "07211a1c54be6b5b"
+            ]
+        ]
+    },
+    {
+        "id": "07211a1c54be6b5b",
+        "type": "function",
+        "z": "0dae489d55098e98",
+        "name": "function 11",
+        "func": "msg.payload=msg.req.query.curso[0]\nmsg.topic=\"Mudei o valor do topic\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 80,
+        "wires": [
+            [
+                "e3b5828f07bb2a85"
+            ]
+        ]
+    },
+    {
+        "id": "e3b5828f07bb2a85",
+        "type": "template",
+        "z": "0dae489d55098e98",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<html>\n    <head>\n        <h1>Teste aula 14<h1/>\n    </head>\n    <body>\n        <p>{{payload}}</p>\n        <p>{{topic}}</p>\n    </body>\n</html>",
+        "output": "str",
+        "x": 580,
+        "y": 80,
+        "wires": [
+            [
+                "08d229d12e4af7d0"
+            ]
+        ]
+    },
+    {
+        "id": "08d229d12e4af7d0",
+        "type": "http response",
+        "z": "0dae489d55098e98",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 770,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1e605d8bdb72f115",
+        "type": "http in",
+        "z": "5bd83a1f61d23d00",
+        "name": "",
+        "url": "/aula15/:nome/:idade/:cidade",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 140,
+        "wires": [
+            [
+                "882c19e94544e320"
+            ]
+        ]
+    },
+    {
+        "id": "bc2c348c1dface01",
+        "type": "http response",
+        "z": "5bd83a1f61d23d00",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 630,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "882c19e94544e320",
+        "type": "template",
+        "z": "5bd83a1f61d23d00",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<html>\n    <head>\n        <h1>Aula 15</h1>\n    </head>\n    <body>\n        <p>Nome: {{req.params.nome}}</p>\n        <p>Idade: {{req.params.idade}}</p>\n        <p>Cidade: {{req.params.cidade}}</p>\n    </body>\n</hmtl>",
+        "output": "str",
+        "x": 480,
+        "y": 140,
+        "wires": [
+            [
+                "bc2c348c1dface01"
+            ]
+        ]
+    },
+    {
+        "id": "e86e6056b2077e97",
+        "type": "inject",
+        "z": "7a7fdd1d5a078863",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 80,
+        "wires": [
+            [
+                "ddc20593bd21428a"
+            ]
+        ]
+    },
+    {
+        "id": "efa8f0bceb972047",
+        "type": "http in",
+        "z": "7a7fdd1d5a078863",
+        "name": "",
+        "url": "/aula16",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "23a89b9d291ef75e"
+            ]
+        ]
+    },
+    {
+        "id": "2e90eda06840f940",
+        "type": "template",
+        "z": "7a7fdd1d5a078863",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Número: {{payload}} !",
+        "output": "str",
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "505b600c293f29c6"
+            ]
+        ]
+    },
+    {
+        "id": "505b600c293f29c6",
+        "type": "http response",
+        "z": "7a7fdd1d5a078863",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ddc20593bd21428a",
+        "type": "function",
+        "z": "7a7fdd1d5a078863",
+        "name": "function 12",
+        "func": "msg.payload = Math.floor(Math.random()*(10-1)+1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 80,
+        "wires": [
+            [
+                "624316feb1b14399"
+            ]
+        ]
+    },
+    {
+        "id": "ab53583764067983",
+        "type": "debug",
+        "z": "7a7fdd1d5a078863",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "624316feb1b14399",
+        "type": "change",
+        "z": "7a7fdd1d5a078863",
+        "name": "store",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "ab53583764067983"
+            ]
+        ]
+    },
+    {
+        "id": "23a89b9d291ef75e",
+        "type": "change",
+        "z": "7a7fdd1d5a078863",
+        "name": "retrive",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "2e90eda06840f940"
+            ]
+        ]
+    },
+    {
+        "id": "d53fe29a5af419c2",
+        "type": "http in",
+        "z": "8b70260efeaa049f",
+        "name": "",
+        "url": "/aula17",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "f14aef2b6c9623a7"
+            ]
+        ]
+    },
+    {
+        "id": "77b1cdfe313dc1ec",
+        "type": "http response",
+        "z": "8b70260efeaa049f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 810,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "bb2f9d5320dd6b77",
+        "type": "template",
+        "z": "8b70260efeaa049f",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"User agent\": {{req.headers.user-agent}},\n}",
+        "output": "str",
+        "x": 620,
+        "y": 180,
+        "wires": [
+            [
+                "77b1cdfe313dc1ec"
+            ]
+        ]
+    },
+    {
+        "id": "f14aef2b6c9623a7",
+        "type": "change",
+        "z": "8b70260efeaa049f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.content-type",
+                "pt": "msg",
+                "to": "application/json",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "headers.access-control-allow-origin",
+                "pt": "msg",
+                "to": "*",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 180,
+        "wires": [
+            [
+                "bb2f9d5320dd6b77"
+            ]
+        ]
+    },
+    {
+        "id": "a29c3f5191550942",
+        "type": "http in",
+        "z": "812346a9ddb5f9f8",
+        "name": "",
+        "url": "/api-json",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "7ce9317244f981a3"
+            ]
+        ]
+    },
+    {
+        "id": "62ed6b190e24ccf4",
+        "type": "http response",
+        "z": "812346a9ddb5f9f8",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 490,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "7ce9317244f981a3",
+        "type": "template",
+        "z": "812346a9ddb5f9f8",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"canal\": \"CFB cursos\",\n    \"curso\": \"Node-RED\",\n    \"ano\": 2023,\n    \"cursos\": [\"Node\", \"Node-RED\", \"React-Native\"]\n}",
+        "output": "str",
+        "x": 320,
+        "y": 140,
+        "wires": [
+            [
+                "62ed6b190e24ccf4",
+                "1ede032e0b492019"
+            ]
+        ]
+    },
+    {
+        "id": "232894673528864f",
+        "type": "debug",
+        "z": "812346a9ddb5f9f8",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.canal",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1ede032e0b492019",
+        "type": "json",
+        "z": "812346a9ddb5f9f8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 490,
+        "y": 200,
+        "wires": [
+            [
+                "232894673528864f"
+            ]
+        ]
+    },
+    {
+        "id": "bfa13fde8435c7f0",
+        "type": "http in",
+        "z": "f2ddd0dab01ea43b",
+        "name": "",
+        "url": "/api-logo-jpg",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 280,
+        "y": 160,
+        "wires": [
+            [
+                "8f3f65cf1f4e4856"
+            ]
+        ]
+    },
+    {
+        "id": "0b5bd8784ead0519",
+        "type": "http response",
+        "z": "f2ddd0dab01ea43b",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "image/jpg"
+        },
+        "x": 830,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8f3f65cf1f4e4856",
+        "type": "file",
+        "z": "f2ddd0dab01ea43b",
+        "name": "",
+        "filename": "E:\\Aulas Node Red\\cachorro.jpg",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 570,
+        "y": 160,
+        "wires": [
+            [
+                "0b5bd8784ead0519"
+            ]
+        ]
+    },
+    {
+        "id": "6334853c538b4640",
+        "type": "http in",
+        "z": "f2ddd0dab01ea43b",
+        "name": "",
+        "url": "/api-logo-zip",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 280,
+        "y": 220,
+        "wires": [
+            [
+                "458d6f59764d1688"
+            ]
+        ]
+    },
+    {
+        "id": "725a45edd2b1cb56",
+        "type": "http response",
+        "z": "f2ddd0dab01ea43b",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "image/zip"
+        },
+        "x": 830,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "458d6f59764d1688",
+        "type": "file",
+        "z": "f2ddd0dab01ea43b",
+        "name": "",
+        "filename": "E:\\Aulas Node Red\\cachorro.rar",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 570,
+        "y": 220,
+        "wires": [
+            [
+                "725a45edd2b1cb56"
+            ]
+        ]
+    },
+    {
+        "id": "2ad27336ec9feb1c",
+        "type": "http in",
+        "z": "43695431050d3e18",
+        "name": "",
+        "url": "/api-form",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 140,
+        "wires": [
+            [
+                "3efdae454e1cc3df"
+            ]
+        ]
+    },
+    {
+        "id": "2ff8aa19c81b25d7",
+        "type": "http response",
+        "z": "43695431050d3e18",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 210,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "3efdae454e1cc3df",
+        "type": "template",
+        "z": "43695431050d3e18",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Node-RED Aula 20</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  </head>\n  <body>\n    <header>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto my-5\">\n                <h1>Curso de Node-Red - Aula 20</h1>\n            </div>\n        </div>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto\">\n                <p>Olá, {{payload.name}}</p>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n  </body>\n</html>",
+        "output": "str",
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "2ff8aa19c81b25d7"
+            ]
+        ]
+    },
+    {
+        "id": "9e2e023f4d0eafe2",
+        "type": "http in",
+        "z": "f13c06462febccb0",
+        "name": "",
+        "url": "/api-cookies",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 120,
+        "wires": [
+            [
+                "317a240db791071e"
+            ]
+        ]
+    },
+    {
+        "id": "f96b532706da4bb0",
+        "type": "http in",
+        "z": "f13c06462febccb0",
+        "name": "",
+        "url": "/api-cookies/add",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "2a7a775f127ce4d8"
+            ]
+        ]
+    },
+    {
+        "id": "317a240db791071e",
+        "type": "function",
+        "z": "f13c06462febccb0",
+        "name": "function 13",
+        "func": "msg.payload=JSON.stringify(msg.req.cookies,null,4)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 120,
+        "wires": [
+            [
+                "f2b99bb9aefe8307"
+            ]
+        ]
+    },
+    {
+        "id": "4bc641707bf58fb5",
+        "type": "http response",
+        "z": "f13c06462febccb0",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 810,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f2b99bb9aefe8307",
+        "type": "template",
+        "z": "f13c06462febccb0",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Node-RED Aula 20</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  </head>\n  <body>\n    <header>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto my-5\">\n                <h1>Curso de Node-Red - Aula 21</h1>\n            </div>\n        </div>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto\">\n                <h2>Cookies</h2>\n                <a href=\"/api-cookies/add\">Adicionar</a>\n                <pre>{{payload}}</pre>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n  </body>\n</html>\n",
+        "output": "str",
+        "x": 600,
+        "y": 120,
+        "wires": [
+            [
+                "4bc641707bf58fb5"
+            ]
+        ]
+    },
+    {
+        "id": "2a7a775f127ce4d8",
+        "type": "function",
+        "z": "f13c06462febccb0",
+        "name": "function 14",
+        "func": "msg.cookies={}\nmsg.cookies[\"cfcursos - \" + (Math.floor(Math.random()*1000))]=Date.now()\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 200,
+        "wires": [
+            [
+                "40c50f509db05ccf"
+            ]
+        ]
+    },
+    {
+        "id": "40c50f509db05ccf",
+        "type": "change",
+        "z": "f13c06462febccb0",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "302",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.location",
+                "pt": "msg",
+                "to": "/api-cookies",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 200,
+        "wires": [
+            [
+                "4bc641707bf58fb5"
+            ]
+        ]
+    },
+    {
+        "id": "06e2d8e75ca2e3c6",
+        "type": "inject",
+        "z": "f99b36244abf4e44",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 80,
+        "wires": [
+            [
+                "504e7aab04e6e5ed"
+            ]
+        ]
+    },
+    {
+        "id": "504e7aab04e6e5ed",
+        "type": "http request",
+        "z": "f99b36244abf4e44",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://www.nodered.org/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 350,
+        "y": 80,
+        "wires": [
+            [
+                "3f194ff3e55f7c0a"
+            ]
+        ]
+    },
+    {
+        "id": "2589495a3f8e3069",
+        "type": "debug",
+        "z": "f99b36244abf4e44",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3f194ff3e55f7c0a",
+        "type": "html",
+        "z": "f99b36244abf4e44",
+        "name": "",
+        "property": "payload",
+        "outproperty": "payload",
+        "tag": "p",
+        "ret": "text",
+        "as": "single",
+        "x": 510,
+        "y": 80,
+        "wires": [
+            [
+                "2589495a3f8e3069"
+            ]
+        ]
+    },
+    {
+        "id": "bed845d2609e538e",
+        "type": "inject",
+        "z": "e95aa9be8f0bf708",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "https://www.nodered.org/",
+        "payloadType": "str",
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [
+                "a6f3885992baf36d"
+            ]
+        ]
+    },
+    {
+        "id": "2c6069b801b46abc",
+        "type": "http request",
+        "z": "e95aa9be8f0bf708",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 490,
+        "y": 40,
+        "wires": [
+            [
+                "cb92babe8a21ddc9"
+            ]
+        ]
+    },
+    {
+        "id": "a1d0646a19a88b58",
+        "type": "debug",
+        "z": "e95aa9be8f0bf708",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "a6f3885992baf36d",
+        "type": "change",
+        "z": "e95aa9be8f0bf708",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "url",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 40,
+        "wires": [
+            [
+                "2c6069b801b46abc"
+            ]
+        ]
+    },
+    {
+        "id": "cb92babe8a21ddc9",
+        "type": "html",
+        "z": "e95aa9be8f0bf708",
+        "name": "",
+        "property": "payload",
+        "outproperty": "payload",
+        "tag": "h1",
+        "ret": "html",
+        "as": "single",
+        "x": 650,
+        "y": 40,
+        "wires": [
+            [
+                "a1d0646a19a88b58"
+            ]
+        ]
+    },
+    {
+        "id": "49e6e6e70598bb90",
+        "type": "inject",
+        "z": "e95aa9be8f0bf708",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "posts",
+        "payloadType": "str",
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "d69fa4bce13f5d02"
+            ]
+        ]
+    },
+    {
+        "id": "fcbb696f0ceabd0c",
+        "type": "http request",
+        "z": "e95aa9be8f0bf708",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 510,
+        "y": 200,
+        "wires": [
+            [
+                "167967a8694b91c1"
+            ]
+        ]
+    },
+    {
+        "id": "301e860402bb30e3",
+        "type": "debug",
+        "z": "e95aa9be8f0bf708",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "fa670a589ea0873e",
+        "type": "change",
+        "z": "e95aa9be8f0bf708",
+        "name": "Posts",
+        "rules": [
+            {
+                "t": "set",
+                "p": "url",
+                "pt": "msg",
+                "to": "https://cfbcursos.com.br/posts-cfb/",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "fcbb696f0ceabd0c"
+            ]
+        ]
+    },
+    {
+        "id": "167967a8694b91c1",
+        "type": "html",
+        "z": "e95aa9be8f0bf708",
+        "name": "",
+        "property": "payload",
+        "outproperty": "payload",
+        "tag": "h1",
+        "ret": "text",
+        "as": "single",
+        "x": 670,
+        "y": 200,
+        "wires": [
+            [
+                "301e860402bb30e3"
+            ]
+        ]
+    },
+    {
+        "id": "d69fa4bce13f5d02",
+        "type": "switch",
+        "z": "e95aa9be8f0bf708",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "posts",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "cursos",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "fa670a589ea0873e"
+            ],
+            [
+                "d28e801318036a22"
+            ]
+        ]
+    },
+    {
+        "id": "d28e801318036a22",
+        "type": "change",
+        "z": "e95aa9be8f0bf708",
+        "name": "Posts",
+        "rules": [
+            {
+                "t": "set",
+                "p": "url",
+                "pt": "msg",
+                "to": "https://cfbcursos.com.br/cursos-cfb/",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 240,
+        "wires": [
+            [
+                "fcbb696f0ceabd0c"
+            ]
+        ]
+    },
+    {
+        "id": "b532d74146046a2d",
+        "type": "inject",
+        "z": "e95aa9be8f0bf708",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "cursos",
+        "payloadType": "str",
+        "x": 110,
+        "y": 260,
+        "wires": [
+            [
+                "d69fa4bce13f5d02"
+            ]
+        ]
+    },
+    {
+        "id": "dd3b5dbfd3b1d9f0",
+        "type": "split",
+        "z": "3771d325fdbbdcf1",
+        "name": "",
+        "splt": " ",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 450,
+        "y": 140,
+        "wires": [
+            [
+                "444c3ba0d934c852"
+            ]
+        ]
+    },
+    {
+        "id": "0b6b8155e2b3445c",
+        "type": "join",
+        "z": "3771d325fdbbdcf1",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": " ",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 450,
+        "y": 300,
+        "wires": [
+            [
+                "6a0a4b241088e981"
+            ]
+        ]
+    },
+    {
+        "id": "003ea87aef16ff2d",
+        "type": "inject",
+        "z": "3771d325fdbbdcf1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Curso de Node-RED",
+        "payloadType": "str",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "dd3b5dbfd3b1d9f0"
+            ]
+        ]
+    },
+    {
+        "id": "4bb8ec0b66789741",
+        "type": "inject",
+        "z": "3771d325fdbbdcf1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "0",
+        "payload": "Curso",
+        "payloadType": "str",
+        "x": 150,
+        "y": 300,
+        "wires": [
+            [
+                "0b6b8155e2b3445c"
+            ]
+        ]
+    },
+    {
+        "id": "444c3ba0d934c852",
+        "type": "debug",
+        "z": "3771d325fdbbdcf1",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "6a0a4b241088e981",
+        "type": "debug",
+        "z": "3771d325fdbbdcf1",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a20fd226c6427725",
+        "type": "inject",
+        "z": "3771d325fdbbdcf1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "1",
+        "payload": "de",
+        "payloadType": "str",
+        "x": 150,
+        "y": 360,
+        "wires": [
+            [
+                "0b6b8155e2b3445c"
+            ]
+        ]
+    },
+    {
+        "id": "a9012438c5cc1027",
+        "type": "inject",
+        "z": "3771d325fdbbdcf1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "2",
+        "payload": "Node-RED",
+        "payloadType": "str",
+        "x": 170,
+        "y": 420,
+        "wires": [
+            [
+                "0b6b8155e2b3445c"
+            ]
+        ]
+    },
+    {
+        "id": "3fbfb35d2d02d31f",
+        "type": "inject",
+        "z": "184c87e140abe347",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "9e633fb909419604"
+            ]
+        ]
+    },
+    {
+        "id": "89ae45ea4d75b2dc",
+        "type": "debug",
+        "z": "184c87e140abe347",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9e633fb909419604",
+        "type": "change",
+        "z": "184c87e140abe347",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "select * from users",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69420de9fc6d0a42",
+        "type": "ui_button",
+        "z": "b417c2f428832eca",
+        "name": "",
+        "group": "58639ce99d0e715f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Node-RED",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Node-RED",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "af271682f8f2e3cc"
+            ]
+        ]
+    },
+    {
+        "id": "ad3e3115e5e9c282",
+        "type": "ui_button",
+        "z": "b417c2f428832eca",
+        "name": "",
+        "group": "58639ce99d0e715f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "JavaScript",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "JavaScript",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "af271682f8f2e3cc"
+            ]
+        ]
+    },
+    {
+        "id": "af271682f8f2e3cc",
+        "type": "ui_text",
+        "z": "b417c2f428832eca",
+        "group": "58639ce99d0e715f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Resultado: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 390,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "03c8653c91e573cc",
+        "type": "ui_text",
+        "z": "1551dc015949f242",
+        "group": "58639ce99d0e715f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Curso digitado: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 520,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "db0ebc83703f7295",
+        "type": "ui_text_input",
+        "z": "1551dc015949f242",
+        "name": "",
+        "label": "Digite um curso:",
+        "tooltip": "",
+        "group": "58639ce99d0e715f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 320,
+        "y": 40,
+        "wires": [
+            [
+                "03c8653c91e573cc"
+            ]
+        ]
+    },
+    {
+        "id": "735d3a9bf614c723",
+        "type": "ui_button",
+        "z": "1551dc015949f242",
+        "name": "",
+        "group": "58639ce99d0e715f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Mudar curso",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "payload",
+        "payloadType": "flow",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            [
+                "db0ebc83703f7295"
+            ]
+        ]
+    },
+    {
+        "id": "ba8773aa80f38c8b",
+        "type": "inject",
+        "z": "1551dc015949f242",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 140,
+        "wires": [
+            [
+                "edb05f15dbd51edc"
+            ]
+        ]
+    },
+    {
+        "id": "edb05f15dbd51edc",
+        "type": "debug",
+        "z": "1551dc015949f242",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1d48f92a60c37611",
+        "type": "ui_gauge",
+        "z": "4e8bf59433ad9f2c",
+        "name": "",
+        "group": "f482069eb474bc84",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Velocímetro",
+        "label": "Km/h",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 610,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "69f35fabca440049",
+        "type": "ui_gauge",
+        "z": "4e8bf59433ad9f2c",
+        "name": "",
+        "group": "909782f70a37654b",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 90,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "27197a05869290db",
+        "type": "ui_slider",
+        "z": "4e8bf59433ad9f2c",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "f482069eb474bc84",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "200",
+        "step": "20",
+        "className": "",
+        "x": 450,
+        "y": 80,
+        "wires": [
+            [
+                "1d48f92a60c37611"
+            ]
+        ]
+    },
+    {
+        "id": "e9789623b1891505",
+        "type": "inject",
+        "z": "4e8bf59433ad9f2c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "6be3e844fdc02888"
+            ]
+        ]
+    },
+    {
+        "id": "6be3e844fdc02888",
+        "type": "random",
+        "z": "4e8bf59433ad9f2c",
+        "name": "",
+        "low": "0",
+        "high": "200",
+        "inte": "true",
+        "property": "payload",
+        "x": 300,
+        "y": 80,
+        "wires": [
+            [
+                "27197a05869290db"
+            ]
+        ]
+    },
+    {
+        "id": "a59d09d66f7f1485",
+        "type": "inject",
+        "z": "ed03bf7f07dd9770",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "19e265751125d3bf",
+                "2b0a42149a0472a2"
+            ]
+        ]
+    },
+    {
+        "id": "3b22273ea547b284",
+        "type": "ui_gauge",
+        "z": "ed03bf7f07dd9770",
+        "name": "",
+        "group": "2fb107fd54f8143a",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Peças Boas",
+        "label": "units",
+        "format": "{{boas}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1070,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "0b2333bac2d84fab",
+        "type": "ui_gauge",
+        "z": "ed03bf7f07dd9770",
+        "name": "",
+        "group": "13bc8c9f257860b9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Peças Ruins",
+        "label": "units",
+        "format": "{{ruins}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1070,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "19e265751125d3bf",
+        "type": "random",
+        "z": "ed03bf7f07dd9770",
+        "name": "",
+        "low": "0",
+        "high": "99",
+        "inte": "true",
+        "property": "payload",
+        "x": 320,
+        "y": 140,
+        "wires": [
+            [
+                "237b08185c39a91d"
+            ]
+        ]
+    },
+    {
+        "id": "44084fe340c44c17",
+        "type": "switch",
+        "z": "ed03bf7f07dd9770",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "10",
+                "vt": "str"
+            },
+            {
+                "t": "gte",
+                "v": "10",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 140,
+        "wires": [
+            [
+                "da3f2258118da98e"
+            ],
+            [
+                "86b8c76c588541aa"
+            ]
+        ]
+    },
+    {
+        "id": "86b8c76c588541aa",
+        "type": "function",
+        "z": "ed03bf7f07dd9770",
+        "name": "Peças boas",
+        "func": "var boas = flow.get(\"boas\") || 0;\nboas++;\nflow.set(\"boas\",boas);\nmsg.boas = flow.get(\"boas\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 160,
+        "wires": [
+            [
+                "3b22273ea547b284"
+            ]
+        ]
+    },
+    {
+        "id": "da3f2258118da98e",
+        "type": "function",
+        "z": "ed03bf7f07dd9770",
+        "name": "Peças ruins",
+        "func": "\nvar ruins = flow.get(\"ruins\") || 0;\nruins++;\nflow.set(\"ruins\", ruins);\nmsg.ruins = flow.get(\"ruins\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 80,
+        "wires": [
+            [
+                "0b2333bac2d84fab"
+            ]
+        ]
+    },
+    {
+        "id": "2b0a42149a0472a2",
+        "type": "ui_button",
+        "z": "ed03bf7f07dd9770",
+        "name": "",
+        "group": "d6d6637bd20a31fc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reiniciar contadores",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 400,
+        "y": 340,
+        "wires": [
+            [
+                "405d2316b4e6352e"
+            ]
+        ]
+    },
+    {
+        "id": "405d2316b4e6352e",
+        "type": "function",
+        "z": "ed03bf7f07dd9770",
+        "name": "reset contadores",
+        "func": "flow.set(\"boas\", 0);\nflow.set(\"ruins\", 0);\nflow.set(\"total\", 0);\nmsg.boas = flow.get(\"boas\");\nmsg.ruins = flow.get(\"ruins\");\nmsg.ruins = flow.get(\"total\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 340,
+        "wires": [
+            [
+                "0b2333bac2d84fab",
+                "3b22273ea547b284",
+                "34eb7544c1d3b811"
+            ]
+        ]
+    },
+    {
+        "id": "34eb7544c1d3b811",
+        "type": "ui_text",
+        "z": "ed03bf7f07dd9770",
+        "group": "d6d6637bd20a31fc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Total produzido",
+        "format": "{{msg.total}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1080,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "237b08185c39a91d",
+        "type": "function",
+        "z": "ed03bf7f07dd9770",
+        "name": "Total",
+        "func": "\nvar total = flow.get(\"total\") || 0;\ntotal++;\nflow.set(\"total\", total);\nmsg.total = flow.get(\"total\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 220,
+        "wires": [
+            [
+                "44084fe340c44c17",
+                "34eb7544c1d3b811"
+            ]
+        ]
+    },
+    {
+        "id": "6d5951b8fd38e618",
+        "type": "inject",
+        "z": "07af216d578caf33",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "0fead6a13d6fd4a3",
+                "01603a0484491013"
+            ]
+        ]
+    },
+    {
+        "id": "314eb1ef44bd8f86",
+        "type": "ui_gauge",
+        "z": "07af216d578caf33",
+        "name": "",
+        "group": "e9ee1331285cb59c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "% de Peças Boas",
+        "label": "perc",
+        "format": "{{perc_boas}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "1c13d717c103b9d3",
+        "type": "ui_gauge",
+        "z": "07af216d578caf33",
+        "name": "",
+        "group": "461f6548f8c0dcdd",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "% de Peças Ruins",
+        "label": "perc",
+        "format": "{{perc_ruins}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0fead6a13d6fd4a3",
+        "type": "random",
+        "z": "07af216d578caf33",
+        "name": "",
+        "low": "0",
+        "high": "99",
+        "inte": "true",
+        "property": "payload",
+        "x": 320,
+        "y": 140,
+        "wires": [
+            [
+                "5209d3446aa81f70"
+            ]
+        ]
+    },
+    {
+        "id": "88e50a94f2dc106d",
+        "type": "switch",
+        "z": "07af216d578caf33",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "10",
+                "vt": "str"
+            },
+            {
+                "t": "gte",
+                "v": "10",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 140,
+        "wires": [
+            [
+                "53169dc4c6762811"
+            ],
+            [
+                "007001aeaaf5a346"
+            ]
+        ]
+    },
+    {
+        "id": "007001aeaaf5a346",
+        "type": "function",
+        "z": "07af216d578caf33",
+        "name": "Peças boas",
+        "func": "var boas = flow.get(\"boas\") || 0;\nvar perc_boas = flow.get(\"perc_boas\") || 0;\nvar total = flow.get(\"total\") || 0;\n\nboas++;\n\nflow.set(\"boas\", boas);\n\nperc_boas = Math.round((flow.get(\"boas\") / flow.get(\"total\")) * 100);\n\nflow.set(\"perc_boas\", perc_boas);\n\nmsg.boas = flow.get(\"boas\");\nmsg.perc_boas = flow.get(\"perc_boas\");\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 240,
+        "wires": [
+            [
+                "314eb1ef44bd8f86",
+                "dcdb1326866d7fdf"
+            ]
+        ]
+    },
+    {
+        "id": "53169dc4c6762811",
+        "type": "function",
+        "z": "07af216d578caf33",
+        "name": "Peças ruins",
+        "func": "var ruins = flow.get(\"ruins\") || 0;\nvar perc_ruins = flow.get(\"perc_ruins\") || 0;\nvar total = flow.get(\"total\") || 0;\n\nruins++;\n\nflow.set(\"ruins\", ruins);\n\nperc_ruins = Math.round((flow.get(\"ruins\") / flow.get(\"total\"))*100);\n\nflow.set(\"perc_ruins\", perc_ruins);\n\nmsg.ruins = flow.get(\"ruins\");\nmsg.perc_ruins = flow.get(\"perc_ruins\");\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 80,
+        "wires": [
+            [
+                "1c13d717c103b9d3",
+                "67276db0d953d7b7"
+            ]
+        ]
+    },
+    {
+        "id": "01603a0484491013",
+        "type": "ui_button",
+        "z": "07af216d578caf33",
+        "name": "",
+        "group": "cc315892cdac1f4f",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reiniciar contadores",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 360,
+        "y": 340,
+        "wires": [
+            [
+                "1538dc1e3e1f53d1"
+            ]
+        ]
+    },
+    {
+        "id": "1538dc1e3e1f53d1",
+        "type": "function",
+        "z": "07af216d578caf33",
+        "name": "reset contadores",
+        "func": "flow.set(\"boas\", 0);\nflow.set(\"ruins\", 0);\nflow.set(\"total\", 0);\nflow.set(\"perc_ruins\", 0);\nflow.set(\"perc_boas\", 0);\nmsg.boas = flow.get(\"boas\");\nmsg.ruins = flow.get(\"ruins\");\nmsg.total = flow.get(\"total\");\nmsg.perc_ruins = flow.get(\"perc_ruins\");\nmsg.perc_boas = flow.get(\"perc_boas\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 340,
+        "wires": [
+            [
+                "1c13d717c103b9d3",
+                "314eb1ef44bd8f86",
+                "ebcfb097e2a29b10",
+                "67276db0d953d7b7",
+                "dcdb1326866d7fdf"
+            ]
+        ]
+    },
+    {
+        "id": "ebcfb097e2a29b10",
+        "type": "ui_text",
+        "z": "07af216d578caf33",
+        "group": "cc315892cdac1f4f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Total",
+        "format": "{{msg.total}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5209d3446aa81f70",
+        "type": "function",
+        "z": "07af216d578caf33",
+        "name": "Total",
+        "func": "\nvar total = flow.get(\"total\") || 0;\ntotal++;\nflow.set(\"total\", total);\nmsg.total = flow.get(\"total\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 300,
+        "wires": [
+            [
+                "88e50a94f2dc106d",
+                "ebcfb097e2a29b10"
+            ]
+        ]
+    },
+    {
+        "id": "67276db0d953d7b7",
+        "type": "ui_text",
+        "z": "07af216d578caf33",
+        "group": "cc315892cdac1f4f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Ruins",
+        "format": "{{msg.ruins}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "dcdb1326866d7fdf",
+        "type": "ui_text",
+        "z": "07af216d578caf33",
+        "group": "cc315892cdac1f4f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Boas",
+        "format": "{{msg.boas}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c4fd6d20a2202793",
+        "type": "switch",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "property": "req.params.entrada",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "home",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "adicionar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "consultar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "atualizar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "deletar",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 470,
+        "y": 140,
+        "wires": [
+            [
+                "048e870b02909987"
+            ],
+            [
+                "5ecd425c2fd889d5"
+            ],
+            [
+                "d7a61111310d1874"
+            ],
+            [
+                "180bc98e2a2149ef"
+            ],
+            [
+                "fa7c0da8f2de6b9f"
+            ]
+        ]
+    },
+    {
+        "id": "09399f09bdd951cc",
+        "type": "template",
+        "z": "ec8128327cee15c9",
+        "name": "CSS",
+        "field": "css",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "/*Adicionar CSS*/\nh1\n{\n    font-weight: bold;\n}",
+        "output": "str",
+        "x": 330,
+        "y": 140,
+        "wires": [
+            [
+                "c4fd6d20a2202793"
+            ]
+        ]
+    },
+    {
+        "id": "048e870b02909987",
+        "type": "template",
+        "z": "ec8128327cee15c9",
+        "name": "Home",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div>\n            <h1>Home</h1>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
+        "output": "str",
+        "x": 690,
+        "y": 80,
+        "wires": [
+            [
+                "8cb82e15e49d9e41"
+            ]
+        ]
+    },
+    {
+        "id": "d7a61111310d1874",
+        "type": "template",
+        "z": "ec8128327cee15c9",
+        "name": "Consultar",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div>\n            <h1>Consultar</h1>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
+        "output": "str",
+        "x": 700,
+        "y": 200,
+        "wires": [
+            [
+                "8cb82e15e49d9e41"
+            ]
+        ]
+    },
+    {
+        "id": "5ecd425c2fd889d5",
+        "type": "template",
+        "z": "ec8128327cee15c9",
+        "name": "Adicionar",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center my-5\">\n          <div class=\"col-auto\">\n              <h1>Adicionar</h1>\n          </div>\n        </div>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto\">\n                <form action=\"http://127.0.0.1:1880/inicio/adicionar2\" method=\"get\">\n                    <div class=\"form-group\">\n                        <label for=\"name\">Nome:</label>\n                        <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" required>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"phone\">Telefone:</label>\n                        <input type=\"text\" id=\"phone\" name=\"phone\" class=\"form-control\" required>\n                    </div>\n                    <div class=\"form-group\">\n                        <input type=\"submit\" value=\"Salvar\" class=\"btn btn-success my-5 w-100 shadow\">\n                    </div>\n                </form>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
+        "output": "str",
+        "x": 700,
+        "y": 140,
+        "wires": [
+            [
+                "8cb82e15e49d9e41"
+            ]
+        ]
+    },
+    {
+        "id": "8cb82e15e49d9e41",
+        "type": "http response",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1070,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "494dc075ccfd59dc",
+        "type": "http in",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "url": "/inicio/:entrada",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "09399f09bdd951cc"
+            ]
+        ]
+    },
+    {
+        "id": "180bc98e2a2149ef",
+        "type": "template",
+        "z": "ec8128327cee15c9",
+        "name": "Atualizar",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div>\n            <h1>Atualizar</h1>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
+        "output": "str",
+        "x": 700,
+        "y": 260,
+        "wires": [
+            [
+                "8cb82e15e49d9e41"
+            ]
+        ]
+    },
+    {
+        "id": "fa7c0da8f2de6b9f",
+        "type": "template",
+        "z": "ec8128327cee15c9",
+        "name": "Deletar",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div>\n            <h1>Deletar</h1>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
+        "output": "str",
+        "x": 700,
+        "y": 320,
+        "wires": [
+            [
+                "8cb82e15e49d9e41"
+            ]
+        ]
+    },
+    {
+        "id": "b72c7aab6bb4a108",
+        "type": "http in",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "url": "/inicio",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "048e870b02909987"
+            ]
+        ]
+    },
+    {
+        "id": "2f20ed0975b91368",
+        "type": "http in",
+        "z": "1dcb5c787b5aea6d",
+        "name": "",
+        "url": "/adicionar",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "ae55672091045541"
+            ]
+        ]
+    },
+    {
+        "id": "ae55672091045541",
+        "type": "function",
+        "z": "1dcb5c787b5aea6d",
+        "name": "function 17",
+        "func": "let name = msg.req.query.name\nlet phone = msg.req.query.telefone\n\nif(name == null || phone == null)\n{\n    msg.erro = 1;\n}else{\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 60,
+        "wires": [
+            [
+                "557310677746c637"
+            ]
+        ]
+    },
+    {
+        "id": "557310677746c637",
+        "type": "switch",
+        "z": "1dcb5c787b5aea6d",
+        "name": "",
+        "property": "erro",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 60,
+        "wires": [
+            [
+                "add9bb40da854ab7",
+                "50dadfb772dc820b"
+            ],
+            [
+                "f78b79b5ee296d67"
+            ]
+        ]
+    },
+    {
+        "id": "2b6ab01417a647cc",
+        "type": "http response",
+        "z": "1dcb5c787b5aea6d",
+        "name": "Ok",
+        "statusCode": "200",
+        "headers": {},
+        "x": 910,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "add9bb40da854ab7",
+        "type": "http response",
+        "z": "1dcb5c787b5aea6d",
+        "name": "Erro",
+        "statusCode": "204",
+        "headers": {},
+        "x": 710,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "f78b79b5ee296d67",
+        "type": "function",
+        "z": "1dcb5c787b5aea6d",
+        "name": "function 18",
+        "func": "let name = msg.req.query.name\nlet phone = msg.req.query.telefone\n\nmsg.topic = \"INSERT INTO tb_contacts (name,phone) VALUES('\"+name+\"','\"+phone+\"')\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 180,
+        "wires": [
+            [
+                "2b6ab01417a647cc",
+                "d9b79c3321f46655"
+            ]
+        ]
+    },
+    {
+        "id": "50dadfb772dc820b",
+        "type": "debug",
+        "z": "1dcb5c787b5aea6d",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d9b79c3321f46655",
+        "type": "debug",
+        "z": "1dcb5c787b5aea6d",
+        "name": "debug 30",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 200,
+        "wires": []
+    }
+]

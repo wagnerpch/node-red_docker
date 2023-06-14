@@ -250,7 +250,7 @@
     {
         "id": "ec8128327cee15c9",
         "type": "tab",
-        "label": "Aula 31-36",
+        "label": "Aula 31-36-e-39",
         "disabled": false,
         "info": "",
         "env": []
@@ -267,14 +267,6 @@
         "id": "08eb2ba8ad1fb324",
         "type": "tab",
         "label": "Aula 38",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "77a2f268fd59c272",
-        "type": "tab",
-        "label": "Aula 39",
         "disabled": false,
         "info": "",
         "env": []
@@ -511,6 +503,16 @@
         "width": "6",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "1496ceccdb9299d5",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "172.18.0.1",
+        "port": "3306",
+        "db": "nodered",
+        "tz": "",
+        "charset": "UTF8"
     },
     {
         "id": "cc886c8dcbb63add",
@@ -1748,7 +1750,8 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
         "x": 520,
@@ -2001,35 +2004,6 @@
         ]
     },
     {
-        "id": "ddf3b4c569280820",
-        "type": "inject",
-        "z": "6b73a06afe406ecd",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "1",
-        "payloadType": "num",
-        "x": 250,
-        "y": 280,
-        "wires": [
-            [
-                "6ea0d1db3b5b50fd"
-            ]
-        ]
-    },
-    {
         "id": "973fc4f0f2347367",
         "type": "http in",
         "z": "0160cf7dc4564cbb",
@@ -2038,7 +2012,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
+        "x": 110,
         "y": 120,
         "wires": [
             [
@@ -2057,7 +2031,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
+        "x": 290,
         "y": 120,
         "wires": [
             [
@@ -2076,7 +2050,7 @@
         "syntax": "mustache",
         "template": "<html>\n    <head>\n        <h1>Teste aula 13<h1/>\n    </head>\n    <body>\n        <p>{{payload}}</p>\n    </body>\n</html>",
         "output": "str",
-        "x": 580,
+        "x": 460,
         "y": 120,
         "wires": [
             [
@@ -2091,8 +2065,18 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 770,
+        "x": 610,
         "y": 120,
+        "wires": []
+    },
+    {
+        "id": "312672bbb72d4078",
+        "type": "comment",
+        "z": "0160cf7dc4564cbb",
+        "name": "endpoint",
+        "info": "http://localhost:1880/teste1",
+        "x": 100,
+        "y": 40,
         "wires": []
     },
     {
@@ -2104,8 +2088,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 140,
-        "y": 80,
+        "x": 100,
+        "y": 120,
         "wires": [
             [
                 "07211a1c54be6b5b"
@@ -2117,14 +2101,14 @@
         "type": "function",
         "z": "0dae489d55098e98",
         "name": "function 11",
-        "func": "msg.payload=msg.req.query.curso[0]\nmsg.topic=\"Mudei o valor do topic\"\nreturn msg;",
+        "func": "msg.payload=msg.req.query.curso\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 80,
+        "x": 270,
+        "y": 120,
         "wires": [
             [
                 "e3b5828f07bb2a85"
@@ -2140,10 +2124,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<html>\n    <head>\n        <h1>Teste aula 14<h1/>\n    </head>\n    <body>\n        <p>{{payload}}</p>\n        <p>{{topic}}</p>\n    </body>\n</html>",
+        "template": "<html>\n    <head>\n        <h1>Teste aula 14<h1/>\n    </head>\n    <body>\n        <p>Curso:</p>\n        <p>{{payload}}</p>\n    </body>\n</html>",
         "output": "str",
-        "x": 580,
-        "y": 80,
+        "x": 440,
+        "y": 120,
         "wires": [
             [
                 "08d229d12e4af7d0"
@@ -2157,8 +2141,18 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 770,
-        "y": 80,
+        "x": 590,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e38d5560025c2aca",
+        "type": "comment",
+        "z": "0dae489d55098e98",
+        "name": "endpoint",
+        "info": "http://localhost:1880/canal?curso=node-red",
+        "x": 100,
+        "y": 40,
         "wires": []
     },
     {
@@ -2170,8 +2164,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 240,
-        "y": 140,
+        "x": 180,
+        "y": 120,
         "wires": [
             [
                 "882c19e94544e320"
@@ -2185,8 +2179,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 630,
-        "y": 140,
+        "x": 570,
+        "y": 120,
         "wires": []
     },
     {
@@ -2200,13 +2194,23 @@
         "syntax": "mustache",
         "template": "<html>\n    <head>\n        <h1>Aula 15</h1>\n    </head>\n    <body>\n        <p>Nome: {{req.params.nome}}</p>\n        <p>Idade: {{req.params.idade}}</p>\n        <p>Cidade: {{req.params.cidade}}</p>\n    </body>\n</hmtl>",
         "output": "str",
-        "x": 480,
-        "y": 140,
+        "x": 420,
+        "y": 120,
         "wires": [
             [
                 "bc2c348c1dface01"
             ]
         ]
+    },
+    {
+        "id": "254a71f9b787199c",
+        "type": "comment",
+        "z": "5bd83a1f61d23d00",
+        "name": "endpoint",
+        "info": "http://localhost:1880/aula15/wagner/38/curitiba",
+        "x": 100,
+        "y": 40,
+        "wires": []
     },
     {
         "id": "e86e6056b2077e97",
@@ -2229,8 +2233,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
-        "y": 80,
+        "x": 120,
+        "y": 120,
         "wires": [
             [
                 "ddc20593bd21428a"
@@ -2246,8 +2250,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
-        "y": 180,
+        "x": 110,
+        "y": 200,
         "wires": [
             [
                 "23a89b9d291ef75e"
@@ -2265,8 +2269,8 @@
         "syntax": "mustache",
         "template": "Número: {{payload}} !",
         "output": "str",
-        "x": 560,
-        "y": 180,
+        "x": 420,
+        "y": 200,
         "wires": [
             [
                 "505b600c293f29c6"
@@ -2280,8 +2284,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 710,
-        "y": 180,
+        "x": 570,
+        "y": 200,
         "wires": []
     },
     {
@@ -2295,8 +2299,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 80,
+        "x": 290,
+        "y": 120,
         "wires": [
             [
                 "624316feb1b14399"
@@ -2316,8 +2320,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 720,
-        "y": 80,
+        "x": 600,
+        "y": 120,
         "wires": []
     },
     {
@@ -2339,8 +2343,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 550,
-        "y": 80,
+        "x": 450,
+        "y": 120,
         "wires": [
             [
                 "ab53583764067983"
@@ -2366,13 +2370,23 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 350,
-        "y": 180,
+        "x": 270,
+        "y": 200,
         "wires": [
             [
                 "2e90eda06840f940"
             ]
         ]
+    },
+    {
+        "id": "7da6561ee438d62e",
+        "type": "comment",
+        "z": "7a7fdd1d5a078863",
+        "name": "endpoint",
+        "info": "http://localhost:1880/aula16",
+        "x": 100,
+        "y": 40,
+        "wires": []
     },
     {
         "id": "d53fe29a5af419c2",
@@ -2383,8 +2397,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
-        "y": 180,
+        "x": 110,
+        "y": 120,
         "wires": [
             [
                 "f14aef2b6c9623a7"
@@ -2398,8 +2412,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 810,
-        "y": 180,
+        "x": 630,
+        "y": 120,
         "wires": []
     },
     {
@@ -2413,8 +2427,8 @@
         "syntax": "mustache",
         "template": "{\n    \"User agent\": {{req.headers.user-agent}},\n}",
         "output": "str",
-        "x": 620,
-        "y": 180,
+        "x": 480,
+        "y": 120,
         "wires": [
             [
                 "77b1cdfe313dc1ec"
@@ -2454,13 +2468,23 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 400,
-        "y": 180,
+        "x": 300,
+        "y": 120,
         "wires": [
             [
                 "bb2f9d5320dd6b77"
             ]
         ]
+    },
+    {
+        "id": "8fde2971937803a0",
+        "type": "comment",
+        "z": "8b70260efeaa049f",
+        "name": "endpoint",
+        "info": "http://localhost:1880/aula17",
+        "x": 100,
+        "y": 40,
+        "wires": []
     },
     {
         "id": "a29c3f5191550942",
@@ -2471,8 +2495,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 130,
-        "y": 140,
+        "x": 110,
+        "y": 120,
         "wires": [
             [
                 "7ce9317244f981a3"
@@ -2488,8 +2512,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 490,
-        "y": 140,
+        "x": 470,
+        "y": 120,
         "wires": []
     },
     {
@@ -2501,10 +2525,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "{\n    \"canal\": \"CFB cursos\",\n    \"curso\": \"Node-RED\",\n    \"ano\": 2023,\n    \"cursos\": [\"Node\", \"Node-RED\", \"React-Native\"]\n}",
+        "template": "{\n    \"canal\": \"CFB cursos\",\n    \"curso\": \"Node-RED\",\n    \"ano\": 2023,\n    \"cursos\": [\"Node\", \"Node-RED\", \"Docker\"]\n}",
         "output": "str",
-        "x": 320,
-        "y": 140,
+        "x": 300,
+        "y": 120,
         "wires": [
             [
                 "62ed6b190e24ccf4",
@@ -2525,8 +2549,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 640,
-        "y": 200,
+        "x": 620,
+        "y": 180,
         "wires": []
     },
     {
@@ -2537,13 +2561,23 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 490,
-        "y": 200,
+        "x": 470,
+        "y": 180,
         "wires": [
             [
                 "232894673528864f"
             ]
         ]
+    },
+    {
+        "id": "69bc57b08790d252",
+        "type": "comment",
+        "z": "812346a9ddb5f9f8",
+        "name": "endpoint",
+        "info": "http://localhost:1880/api-json",
+        "x": 100,
+        "y": 40,
+        "wires": []
     },
     {
         "id": "bfa13fde8435c7f0",
@@ -2554,8 +2588,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 280,
-        "y": 160,
+        "x": 120,
+        "y": 120,
         "wires": [
             [
                 "8f3f65cf1f4e4856"
@@ -2571,8 +2605,8 @@
         "headers": {
             "content-type": "image/jpg"
         },
-        "x": 830,
-        "y": 160,
+        "x": 590,
+        "y": 120,
         "wires": []
     },
     {
@@ -2586,8 +2620,8 @@
         "createDir": false,
         "overwriteFile": "false",
         "encoding": "none",
-        "x": 570,
-        "y": 160,
+        "x": 370,
+        "y": 120,
         "wires": [
             [
                 "0b5bd8784ead0519"
@@ -2603,8 +2637,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 280,
-        "y": 220,
+        "x": 120,
+        "y": 300,
         "wires": [
             [
                 "458d6f59764d1688"
@@ -2620,8 +2654,8 @@
         "headers": {
             "content-type": "image/zip"
         },
-        "x": 830,
-        "y": 220,
+        "x": 590,
+        "y": 300,
         "wires": []
     },
     {
@@ -2635,13 +2669,33 @@
         "createDir": false,
         "overwriteFile": "false",
         "encoding": "none",
-        "x": 570,
-        "y": 220,
+        "x": 370,
+        "y": 300,
         "wires": [
             [
                 "725a45edd2b1cb56"
             ]
         ]
+    },
+    {
+        "id": "4f519e2c67cb3619",
+        "type": "comment",
+        "z": "f2ddd0dab01ea43b",
+        "name": "endpoint",
+        "info": "http://localhost:1880/api-logo-jpg",
+        "x": 100,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "7c215f167c27ab7a",
+        "type": "comment",
+        "z": "f2ddd0dab01ea43b",
+        "name": "endpoint",
+        "info": "http://localhost:1880/api-logo-zip",
+        "x": 100,
+        "y": 220,
+        "wires": []
     },
     {
         "id": "2ad27336ec9feb1c",
@@ -2652,8 +2706,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 180,
-        "y": 140,
+        "x": 120,
+        "y": 120,
         "wires": [
             [
                 "3efdae454e1cc3df"
@@ -2667,8 +2721,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 210,
-        "y": 340,
+        "x": 450,
+        "y": 120,
         "wires": []
     },
     {
@@ -2680,15 +2734,25 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Node-RED Aula 20</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  </head>\n  <body>\n    <header>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto my-5\">\n                <h1>Curso de Node-Red - Aula 20</h1>\n            </div>\n        </div>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto\">\n                <p>Olá, {{payload.name}}</p>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n  </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Node-RED Aula 20</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  </head>\n  <body>\n    <header>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto my-5\">\n                <h1>Curso de Node-Red - Aula 20</h1>\n            </div>\n        </div>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto\">\n                <p>Olá, {{payload.name}}</p>\n                <a href=\"http://127.0.0.1:5500/proj-aulasnodered/pi/github/node-red_docker/node-red/pages/form.html\">Voltar</a>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n  </body>\n</html>",
         "output": "str",
-        "x": 200,
-        "y": 240,
+        "x": 300,
+        "y": 120,
         "wires": [
             [
                 "2ff8aa19c81b25d7"
             ]
         ]
+    },
+    {
+        "id": "413ebf8d45a7c5a9",
+        "type": "comment",
+        "z": "43695431050d3e18",
+        "name": "endpoint",
+        "info": "Acesso via form:\n\n<a href=\"http://127.0.0.1:5500/proj-aulasnodered/pi/github/node-red_docker/node-red/pages/form.html\">Voltar</a>\n\nEnvia os dados para o endpoint:\n\nhttp://localhost:1880/api-form\n",
+        "x": 100,
+        "y": 40,
+        "wires": []
     },
     {
         "id": "9e2e023f4d0eafe2",
@@ -2699,7 +2763,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 220,
+        "x": 120,
         "y": 120,
         "wires": [
             [
@@ -2716,7 +2780,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 240,
+        "x": 140,
         "y": 200,
         "wires": [
             [
@@ -2735,7 +2799,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
+        "x": 350,
         "y": 120,
         "wires": [
             [
@@ -2750,7 +2814,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 810,
+        "x": 750,
         "y": 120,
         "wires": []
     },
@@ -2765,7 +2829,7 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Node-RED Aula 20</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  </head>\n  <body>\n    <header>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto my-5\">\n                <h1>Curso de Node-Red - Aula 21</h1>\n            </div>\n        </div>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto\">\n                <h2>Cookies</h2>\n                <a href=\"/api-cookies/add\">Adicionar</a>\n                <pre>{{payload}}</pre>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n  </body>\n</html>\n",
         "output": "str",
-        "x": 600,
+        "x": 520,
         "y": 120,
         "wires": [
             [
@@ -2784,7 +2848,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
+        "x": 350,
         "y": 200,
         "wires": [
             [
@@ -2825,13 +2889,23 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 620,
+        "x": 540,
         "y": 200,
         "wires": [
             [
                 "4bc641707bf58fb5"
             ]
         ]
+    },
+    {
+        "id": "149e735b6742defc",
+        "type": "comment",
+        "z": "f13c06462febccb0",
+        "name": "endpoint",
+        "info": "http://localhost:1880/api-cookies",
+        "x": 100,
+        "y": 40,
+        "wires": []
     },
     {
         "id": "06e2d8e75ca2e3c6",
@@ -2854,8 +2928,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
-        "y": 80,
+        "x": 120,
+        "y": 120,
         "wires": [
             [
                 "504e7aab04e6e5ed"
@@ -2878,8 +2952,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 350,
-        "y": 80,
+        "x": 310,
+        "y": 120,
         "wires": [
             [
                 "3f194ff3e55f7c0a"
@@ -2899,8 +2973,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 780,
-        "y": 80,
+        "x": 660,
+        "y": 120,
         "wires": []
     },
     {
@@ -2913,13 +2987,23 @@
         "tag": "p",
         "ret": "text",
         "as": "single",
-        "x": 510,
-        "y": 80,
+        "x": 490,
+        "y": 120,
         "wires": [
             [
                 "2589495a3f8e3069"
             ]
         ]
+    },
+    {
+        "id": "da76666fb4bd8635",
+        "type": "comment",
+        "z": "f99b36244abf4e44",
+        "name": "https://www.nodered.org/",
+        "info": "",
+        "x": 150,
+        "y": 40,
+        "wires": []
     },
     {
         "id": "bed845d2609e538e",
@@ -3055,9 +3139,9 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "posts",
+        "payload": "scorecard",
         "payloadType": "str",
-        "x": 110,
+        "x": 120,
         "y": 140,
         "wires": [
             [
@@ -3081,7 +3165,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 510,
+        "x": 650,
         "y": 200,
         "wires": [
             [
@@ -3102,7 +3186,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 820,
+        "x": 960,
         "y": 200,
         "wires": []
     },
@@ -3116,7 +3200,7 @@
                 "t": "set",
                 "p": "url",
                 "pt": "msg",
-                "to": "https://cfbcursos.com.br/posts-cfb/",
+                "to": "https://nodered.org/blog/2022/01/31/introducing-scorecard",
                 "tot": "str"
             }
         ],
@@ -3125,7 +3209,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 350,
+        "x": 470,
         "y": 180,
         "wires": [
             [
@@ -3140,10 +3224,10 @@
         "name": "",
         "property": "payload",
         "outproperty": "payload",
-        "tag": "h1",
+        "tag": "h2",
         "ret": "text",
         "as": "single",
-        "x": 670,
+        "x": 810,
         "y": 200,
         "wires": [
             [
@@ -3161,19 +3245,19 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "posts",
+                "v": "scorecard",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "cursos",
+                "v": "released",
                 "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 230,
+        "x": 290,
         "y": 200,
         "wires": [
             [
@@ -3194,7 +3278,7 @@
                 "t": "set",
                 "p": "url",
                 "pt": "msg",
-                "to": "https://cfbcursos.com.br/cursos-cfb/",
+                "to": "https://nodered.org/blog/2022/07/14/version-3-0-released",
                 "tot": "str"
             }
         ],
@@ -3203,7 +3287,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 350,
+        "x": 470,
         "y": 240,
         "wires": [
             [
@@ -3230,9 +3314,9 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "cursos",
+        "payload": "released",
         "payloadType": "str",
-        "x": 110,
+        "x": 120,
         "y": 260,
         "wires": [
             [
@@ -3456,8 +3540,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 140,
-        "y": 100,
+        "x": 120,
+        "y": 120,
         "wires": [
             [
                 "9e633fb909419604"
@@ -3477,8 +3561,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 700,
-        "y": 100,
+        "x": 680,
+        "y": 160,
         "wires": []
     },
     {
@@ -3491,7 +3575,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "select * from users",
+                "to": "select * from `users`",
                 "tot": "str"
             }
         ],
@@ -3500,10 +3584,92 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
-        "y": 100,
+        "x": 290,
+        "y": 120,
         "wires": [
-            []
+            [
+                "46c28c711ceffc78"
+            ]
+        ]
+    },
+    {
+        "id": "46c28c711ceffc78",
+        "type": "mysql",
+        "z": "184c87e140abe347",
+        "mydb": "1496ceccdb9299d5",
+        "name": "",
+        "x": 520,
+        "y": 160,
+        "wires": [
+            [
+                "89ae45ea4d75b2dc"
+            ]
+        ]
+    },
+    {
+        "id": "dce407bae0e99ec2",
+        "type": "comment",
+        "z": "184c87e140abe347",
+        "name": "verificar ip do container",
+        "info": "1) Acesse as informações do container:\n* docker inspect noderedcompose\n2) Copie o ip que está em \"Gateway\": \"172.18.0.1\"\n3) Cole o número do ip no nó 'nodered'",
+        "x": 140,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "1a269b2386e7fe06",
+        "type": "change",
+        "z": "184c87e140abe347",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "INSERT INTO `nodered`.`users` (`name`) VALUES ('Guilherme');",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "46c28c711ceffc78"
+            ]
+        ]
+    },
+    {
+        "id": "da031814d9c45df5",
+        "type": "inject",
+        "z": "184c87e140abe347",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 200,
+        "wires": [
+            [
+                "1a269b2386e7fe06"
+            ]
         ]
     },
     {
@@ -3526,8 +3692,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 170,
-        "y": 100,
+        "x": 110,
+        "y": 120,
         "wires": [
             [
                 "af271682f8f2e3cc"
@@ -3554,8 +3720,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 170,
-        "y": 160,
+        "x": 110,
+        "y": 200,
         "wires": [
             [
                 "af271682f8f2e3cc"
@@ -3575,8 +3741,18 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 390,
-        "y": 100,
+        "x": 330,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "1939a8f800fe8d84",
+        "type": "comment",
+        "z": "b417c2f428832eca",
+        "name": "dashboard buttons",
+        "info": "",
+        "x": 130,
+        "y": 40,
         "wires": []
     },
     {
@@ -3719,7 +3895,7 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 610,
+        "x": 630,
         "y": 80,
         "wires": []
     },
@@ -3737,7 +3913,7 @@
         "label": "units",
         "format": "{{value}}",
         "min": 0,
-        "max": 10,
+        "max": "200",
         "colors": [
             "#00b500",
             "#e6e600",
@@ -3747,7 +3923,7 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 90,
+        "x": 610,
         "y": 180,
         "wires": []
     },
@@ -3770,7 +3946,7 @@
         "max": "200",
         "step": "20",
         "className": "",
-        "x": 450,
+        "x": 470,
         "y": 80,
         "wires": [
             [
@@ -3820,9 +3996,46 @@
         "y": 80,
         "wires": [
             [
-                "27197a05869290db"
+                "27197a05869290db",
+                "ea820a74608d262e"
             ]
         ]
+    },
+    {
+        "id": "ea820a74608d262e",
+        "type": "function",
+        "z": "4e8bf59433ad9f2c",
+        "name": "dividir",
+        "func": "msg.payload = Math.floor(msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 180,
+        "wires": [
+            [
+                "69f35fabca440049",
+                "84ff0ab1a1ee31b8"
+            ]
+        ]
+    },
+    {
+        "id": "84ff0ab1a1ee31b8",
+        "type": "debug",
+        "z": "4e8bf59433ad9f2c",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 240,
+        "wires": []
     },
     {
         "id": "a59d09d66f7f1485",
@@ -3863,12 +4076,12 @@
         "order": 0,
         "width": 0,
         "height": 0,
-        "gtype": "gage",
+        "gtype": "wave",
         "title": "Peças Boas",
         "label": "units",
         "format": "{{boas}}",
         "min": 0,
-        "max": "100",
+        "max": "1000",
         "colors": [
             "#00b500",
             "#e6e600",
@@ -3891,12 +4104,12 @@
         "order": 0,
         "width": 0,
         "height": 0,
-        "gtype": "gage",
+        "gtype": "wave",
         "title": "Peças Ruins",
         "label": "units",
         "format": "{{ruins}}",
         "min": 0,
-        "max": "100",
+        "max": "1000",
         "colors": [
             "#00b500",
             "#e6e600",
@@ -3907,7 +4120,7 @@
         "diff": false,
         "className": "",
         "x": 1070,
-        "y": 80,
+        "y": 100,
         "wires": []
     },
     {
@@ -3984,14 +4197,14 @@
         "type": "function",
         "z": "ed03bf7f07dd9770",
         "name": "Peças ruins",
-        "func": "\nvar ruins = flow.get(\"ruins\") || 0;\nruins++;\nflow.set(\"ruins\", ruins);\nmsg.ruins = flow.get(\"ruins\");\nreturn msg;",
+        "func": "var ruins = flow.get(\"ruins\") || 0;\nruins++;\nflow.set(\"ruins\", ruins);\nmsg.ruins = flow.get(\"ruins\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 850,
-        "y": 80,
+        "y": 100,
         "wires": [
             [
                 "0b2333bac2d84fab"
@@ -4383,101 +4596,6 @@
         "wires": []
     },
     {
-        "id": "c4fd6d20a2202793",
-        "type": "switch",
-        "z": "ec8128327cee15c9",
-        "name": "",
-        "property": "req.params.entrada",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "home",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "adicionar",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "consultar",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "atualizar",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "deletar",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 5,
-        "x": 470,
-        "y": 140,
-        "wires": [
-            [
-                "048e870b02909987"
-            ],
-            [
-                "5ecd425c2fd889d5"
-            ],
-            [
-                "d7a61111310d1874"
-            ],
-            [
-                "180bc98e2a2149ef"
-            ],
-            [
-                "fa7c0da8f2de6b9f"
-            ]
-        ]
-    },
-    {
-        "id": "09399f09bdd951cc",
-        "type": "template",
-        "z": "ec8128327cee15c9",
-        "name": "CSS",
-        "field": "css",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "/*Adicionar CSS*/\nh1\n{\n    font-weight: bold;\n}",
-        "output": "str",
-        "x": 330,
-        "y": 140,
-        "wires": [
-            [
-                "c4fd6d20a2202793"
-            ]
-        ]
-    },
-    {
-        "id": "048e870b02909987",
-        "type": "template",
-        "z": "ec8128327cee15c9",
-        "name": "Home",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div>\n            <h1>Home</h1>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
-        "output": "str",
-        "x": 690,
-        "y": 80,
-        "wires": [
-            [
-                "8cb82e15e49d9e41"
-            ]
-        ]
-    },
-    {
         "id": "d7a61111310d1874",
         "type": "template",
         "z": "ec8128327cee15c9",
@@ -4486,10 +4604,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div>\n            <h1>Consultar</h1>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Curso de Node-RED</title>\n  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Lista de nomes</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center my-5 w-auto m-auto\" id=\"data\"></div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n  <script>\n    const getAllNames = async () => {\n      const response = await fetch('http://localhost:1880/consultar')\n      if (response.status == 200) {\n        const responseJson = await response.json()\n        responseJson.map(\n          (data) => {\n            document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>ID: \" + data.id + \"</div><div class='card-body'><h5 class='card-title'>\"+ data.name +\"</h5></div></div>\"\n          }\n        )\n      } else {\n        document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>Erro</div><div class='card-body'><h5 class='card-title'>Não foi possível consutar os dados solicitados, tente novamente</h5></div></div>\"\n      }\n    }\n    getAllNames()\n  </script>\n</body>\n</html>",
         "output": "str",
-        "x": 700,
-        "y": 200,
+        "x": 1320,
+        "y": 520,
         "wires": [
             [
                 "8cb82e15e49d9e41"
@@ -4500,15 +4618,15 @@
         "id": "5ecd425c2fd889d5",
         "type": "template",
         "z": "ec8128327cee15c9",
-        "name": "Adicionar",
+        "name": "adicionar",
         "field": "payload",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center my-5\">\n          <div class=\"col-auto\">\n              <h1>Adicionar</h1>\n          </div>\n        </div>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto\">\n                <form action=\"http://127.0.0.1:1880/inicio/adicionar2\" method=\"get\">\n                    <div class=\"form-group\">\n                        <label for=\"name\">Nome:</label>\n                        <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" required>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"phone\">Telefone:</label>\n                        <input type=\"text\" id=\"phone\" name=\"phone\" class=\"form-control\" required>\n                    </div>\n                    <div class=\"form-group\">\n                        <input type=\"submit\" value=\"Salvar\" class=\"btn btn-success my-5 w-100 shadow\">\n                    </div>\n                </form>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Adicionar</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <form action=\"http://127.0.0.1:1880/inicio/adicionar\" method=\"POST\">\n          <div class=\"form-group\">\n            <label for=\"name\" class=\"my-2\">Nome:</label>\n            <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" required>\n          </div>\n          <div class=\"form-group\">\n            <input type=\"submit\" value=\"Salvar\" class=\"btn btn-success my-5 w-100 shadow\">\n          </div>\n        </form>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
-        "x": 700,
-        "y": 140,
+        "x": 260,
+        "y": 120,
         "wires": [
             [
                 "8cb82e15e49d9e41"
@@ -4519,11 +4637,11 @@
         "id": "8cb82e15e49d9e41",
         "type": "http response",
         "z": "ec8128327cee15c9",
-        "name": "",
-        "statusCode": "",
+        "name": "response",
+        "statusCode": "200",
         "headers": {},
-        "x": 1070,
-        "y": 140,
+        "x": 1500,
+        "y": 120,
         "wires": []
     },
     {
@@ -4532,52 +4650,14 @@
         "z": "ec8128327cee15c9",
         "name": "",
         "url": "/inicio/:entrada",
-        "method": "get",
+        "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
-        "y": 140,
-        "wires": [
-            [
-                "09399f09bdd951cc"
-            ]
-        ]
-    },
-    {
-        "id": "180bc98e2a2149ef",
-        "type": "template",
-        "z": "ec8128327cee15c9",
-        "name": "Atualizar",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div>\n            <h1>Atualizar</h1>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
-        "output": "str",
-        "x": 700,
+        "x": 130,
         "y": 260,
         "wires": [
             [
-                "8cb82e15e49d9e41"
-            ]
-        ]
-    },
-    {
-        "id": "fa7c0da8f2de6b9f",
-        "type": "template",
-        "z": "ec8128327cee15c9",
-        "name": "Deletar",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n    <header>\n        <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n            <div class=\"container-fluid\">\n              <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio/home\">Node-RED</a>\n              <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n              </button>\n              <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/home\">Home</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/adicionar\">Adicionar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/atualizar\">Atualizar</a>\n                  </li>\n                  <li class=\"nav-item\">\n                    <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio/deletar\">Deletar</a>\n                  </li>\n                </ul>\n              </div>\n            </div>\n          </nav>\n    </header>\n    <main>\n        <div>\n            <h1>Deletar</h1>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n</body>\n</html>",
-        "output": "str",
-        "x": 700,
-        "y": 320,
-        "wires": [
-            [
-                "8cb82e15e49d9e41"
+                "cd7a614cc485d98f"
             ]
         ]
     },
@@ -4590,13 +4670,269 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 120,
-        "y": 80,
+        "x": 100,
+        "y": 120,
         "wires": [
             [
-                "048e870b02909987"
+                "5ecd425c2fd889d5"
             ]
         ]
+    },
+    {
+        "id": "2c776c4db6fc2d6d",
+        "type": "switch",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "property": "erro",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 200,
+        "wires": [
+            [
+                "381dfc9315f9d0fb"
+            ],
+            [
+                "5699557b91e225b8"
+            ]
+        ]
+    },
+    {
+        "id": "381dfc9315f9d0fb",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "insert into",
+        "func": "let name = msg.req.body.name\n\nmsg.topic = \"INSERT INTO`nodered`.`users`(`name`) VALUES('\" + name +\"')\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 160,
+        "wires": [
+            [
+                "64a67336df9c7bc7"
+            ]
+        ]
+    },
+    {
+        "id": "d994c6a2a87a2520",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "test name",
+        "func": "let name = msg.req.body.name\n\nif (\n    name == null\n    || name.lenght == 0\n    || name == \"\"\n    || name == \"null\"\n    ) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 200,
+        "wires": [
+            [
+                "2c776c4db6fc2d6d"
+            ]
+        ]
+    },
+    {
+        "id": "64a67336df9c7bc7",
+        "type": "mysql",
+        "z": "ec8128327cee15c9",
+        "mydb": "1496ceccdb9299d5",
+        "name": "",
+        "x": 1160,
+        "y": 460,
+        "wires": [
+            [
+                "d7a61111310d1874"
+            ]
+        ]
+    },
+    {
+        "id": "2afc2ccef017520d",
+        "type": "http response",
+        "z": "ec8128327cee15c9",
+        "name": "Erro - 204",
+        "statusCode": "204",
+        "headers": {},
+        "x": 960,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5699557b91e225b8",
+        "type": "template",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Adicionar</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <img src=\"https://http.cat/images/204.jpg\" alt=\"Erro 204 - gatos olhando o pote de comida vazio\">\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
+        "output": "str",
+        "x": 800,
+        "y": 260,
+        "wires": [
+            [
+                "2afc2ccef017520d"
+            ]
+        ]
+    },
+    {
+        "id": "dce2bad13205293f",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "delete",
+        "func": "let id = msg.req.body.id\n\nmsg.topic = \"DELETE FROM`nodered`.`users`WHERE(`id` = '\" + id + \"')\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 380,
+        "wires": [
+            [
+                "64a67336df9c7bc7"
+            ]
+        ]
+    },
+    {
+        "id": "fc7bb16c71be0b68",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "test id",
+        "func": "let id = msg.req.body.id\n\nif (\n    id == null\n    || id.lenght == 0\n    || id == \"\"\n    || id == \"null\"\n    || !Number.isInteger(Number.parseInt(id))\n    ) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 320,
+        "wires": [
+            [
+                "94b2d7cd22d53ebe"
+            ]
+        ]
+    },
+    {
+        "id": "94b2d7cd22d53ebe",
+        "type": "switch",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "property": "erro",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 320,
+        "wires": [
+            [
+                "5699557b91e225b8"
+            ],
+            [
+                "dce2bad13205293f"
+            ]
+        ]
+    },
+    {
+        "id": "21b78918c2ebf29c",
+        "type": "http in",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "url": "/inicio/consultar",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 520,
+        "wires": [
+            [
+                "d7a61111310d1874"
+            ]
+        ]
+    },
+    {
+        "id": "20cbcb7cb4cb2ad1",
+        "type": "comment",
+        "z": "ec8128327cee15c9",
+        "name": "Não está exatamento como o código do curso",
+        "info": "Aproveitei a ideia e fiz alterações na estrutura do fluxo, para elaborar um crud completo",
+        "x": 210,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "cd7a614cc485d98f",
+        "type": "switch",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "property": "req.params.entrada",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "adicionar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "deletar",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 260,
+        "wires": [
+            [
+                "d994c6a2a87a2520"
+            ],
+            [
+                "fc7bb16c71be0b68"
+            ]
+        ]
+    },
+    {
+        "id": "6e6b25133ac2396f",
+        "type": "comment",
+        "z": "ec8128327cee15c9",
+        "name": "A consulta ao banco de dados está na aula 38",
+        "info": "",
+        "x": 210,
+        "y": 460,
+        "wires": []
     },
     {
         "id": "2f20ed0975b91368",
@@ -4607,30 +4943,11 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 140,
-        "y": 60,
+        "x": 120,
+        "y": 100,
         "wires": [
             [
                 "ae55672091045541"
-            ]
-        ]
-    },
-    {
-        "id": "ae55672091045541",
-        "type": "function",
-        "z": "1dcb5c787b5aea6d",
-        "name": "function 17",
-        "func": "let name = msg.req.query.name\nlet phone = msg.req.query.telefone\n\nif(name == null || phone == null)\n{\n    msg.erro = 1;\n}else{\n    msg.erro = 0;\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
-        "y": 60,
-        "wires": [
-            [
-                "557310677746c637"
             ]
         ]
     },
@@ -4656,12 +4973,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 530,
-        "y": 60,
+        "x": 510,
+        "y": 100,
         "wires": [
             [
-                "add9bb40da854ab7",
-                "50dadfb772dc820b"
+                "add9bb40da854ab7"
             ],
             [
                 "f78b79b5ee296d67"
@@ -4672,22 +4988,26 @@
         "id": "2b6ab01417a647cc",
         "type": "http response",
         "z": "1dcb5c787b5aea6d",
-        "name": "Ok",
+        "name": "Ok - 200",
         "statusCode": "200",
-        "headers": {},
-        "x": 910,
-        "y": 160,
+        "headers": {
+            "content-type": "https://http.cat/status/200"
+        },
+        "x": 1060,
+        "y": 140,
         "wires": []
     },
     {
         "id": "add9bb40da854ab7",
         "type": "http response",
         "z": "1dcb5c787b5aea6d",
-        "name": "Erro",
+        "name": "Erro - 204",
         "statusCode": "204",
-        "headers": {},
-        "x": 710,
-        "y": 40,
+        "headers": {
+            "content-type": "text/html"
+        },
+        "x": 680,
+        "y": 60,
         "wires": []
     },
     {
@@ -4695,36 +5015,19 @@
         "type": "function",
         "z": "1dcb5c787b5aea6d",
         "name": "function 18",
-        "func": "let name = msg.req.query.name\nlet phone = msg.req.query.telefone\n\nmsg.topic = \"INSERT INTO tb_contacts (name,phone) VALUES('\"+name+\"','\"+phone+\"')\"\n\nreturn msg;",
+        "func": "let name = msg.req.query.name\n\nmsg.topic = \"INSERT INTO`nodered`.`users`(`name`) VALUES('\" + name +\"')\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 730,
-        "y": 180,
+        "x": 690,
+        "y": 140,
         "wires": [
             [
-                "2b6ab01417a647cc",
-                "d9b79c3321f46655"
+                "fdafe25e5512ee66"
             ]
         ]
-    },
-    {
-        "id": "50dadfb772dc820b",
-        "type": "debug",
-        "z": "1dcb5c787b5aea6d",
-        "name": "debug 29",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 720,
-        "y": 80,
-        "wires": []
     },
     {
         "id": "d9b79c3321f46655",
@@ -4735,11 +5038,170 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 920,
-        "y": 200,
+        "x": 1060,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ae55672091045541",
+        "type": "function",
+        "z": "1dcb5c787b5aea6d",
+        "name": "function 17",
+        "func": "let name = msg.req.query.name\n\nif (name == null || name.lenght == 0 || name == \"\" || name == \"null\") {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "557310677746c637"
+            ]
+        ]
+    },
+    {
+        "id": "fdafe25e5512ee66",
+        "type": "mysql",
+        "z": "1dcb5c787b5aea6d",
+        "mydb": "1496ceccdb9299d5",
+        "name": "",
+        "x": 860,
+        "y": 140,
+        "wires": [
+            [
+                "2b6ab01417a647cc",
+                "d9b79c3321f46655"
+            ]
+        ]
+    },
+    {
+        "id": "7b9816b4afa8e222",
+        "type": "http in",
+        "z": "08eb2ba8ad1fb324",
+        "name": "",
+        "url": "/consultar",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "7aa599d84daf27ad"
+            ]
+        ]
+    },
+    {
+        "id": "99411d2c19c8c7a3",
+        "type": "http response",
+        "z": "08eb2ba8ad1fb324",
+        "name": "Ok - 200",
+        "statusCode": "200",
+        "headers": {},
+        "x": 1060,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "7aa599d84daf27ad",
+        "type": "function",
+        "z": "08eb2ba8ad1fb324",
+        "name": "function 19",
+        "func": "msg.topic = \"SELECT * FROM `nodered`.`users` order by `id` desc\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 100,
+        "wires": [
+            [
+                "e3ee0a1841f1ba03"
+            ]
+        ]
+    },
+    {
+        "id": "e3ee0a1841f1ba03",
+        "type": "mysql",
+        "z": "08eb2ba8ad1fb324",
+        "mydb": "1496ceccdb9299d5",
+        "name": "",
+        "x": 500,
+        "y": 100,
+        "wires": [
+            [
+                "b622d28a57339ca9"
+            ]
+        ]
+    },
+    {
+        "id": "b622d28a57339ca9",
+        "type": "function",
+        "z": "08eb2ba8ad1fb324",
+        "name": "function 20",
+        "func": "let results = msg.payload\n\nif (!results) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 100,
+        "wires": [
+            [
+                "28cfec1055ee2b79"
+            ]
+        ]
+    },
+    {
+        "id": "28cfec1055ee2b79",
+        "type": "switch",
+        "z": "08eb2ba8ad1fb324",
+        "name": "",
+        "property": "erro",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 870,
+        "y": 100,
+        "wires": [
+            [
+                "99411d2c19c8c7a3"
+            ],
+            [
+                "7121853584019bd3"
+            ]
+        ]
+    },
+    {
+        "id": "7121853584019bd3",
+        "type": "http response",
+        "z": "08eb2ba8ad1fb324",
+        "name": "Erro - 404",
+        "statusCode": "404",
+        "headers": {},
+        "x": 1060,
+        "y": 140,
         "wires": []
     }
 ]

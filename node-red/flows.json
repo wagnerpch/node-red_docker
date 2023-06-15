@@ -2048,7 +2048,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<html>\n    <head>\n        <h1>Teste aula 13<h1/>\n    </head>\n    <body>\n        <p>{{payload}}</p>\n    </body>\n</html>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"#\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Aula 13</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <p>{{payload}}</p>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
         "x": 460,
         "y": 120,
@@ -2124,7 +2124,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<html>\n    <head>\n        <h1>Teste aula 14<h1/>\n    </head>\n    <body>\n        <p>Curso:</p>\n        <p>{{payload}}</p>\n    </body>\n</html>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"#\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Aula 14</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <p>Curso: {{payload}}</p>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
         "x": 440,
         "y": 120,
@@ -2192,7 +2192,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<html>\n    <head>\n        <h1>Aula 15</h1>\n    </head>\n    <body>\n        <p>Nome: {{req.params.nome}}</p>\n        <p>Idade: {{req.params.idade}}</p>\n        <p>Cidade: {{req.params.cidade}}</p>\n    </body>\n</hmtl>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"#\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Aula 15</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <p>Nome: {{req.params.nome}}</p>\n        <p>Idade: {{req.params.idade}}</p>\n        <p>Cidade: {{req.params.cidade}}</p>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
         "x": 420,
         "y": 120,
@@ -2267,7 +2267,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "Número: {{payload}} !",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"#\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Aula 16</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <p>Número: {{payload}} !</p>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
         "x": 420,
         "y": 200,
@@ -2425,7 +2425,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "{\n    \"User agent\": {{req.headers.user-agent}},\n}",
+        "template": "{\n  \"User agent\": {{req.headers.user-agent}},\n}",
         "output": "str",
         "x": 480,
         "y": 120,
@@ -2605,7 +2605,7 @@
         "headers": {
             "content-type": "image/jpg"
         },
-        "x": 590,
+        "x": 730,
         "y": 120,
         "wires": []
     },
@@ -2614,13 +2614,13 @@
         "type": "file",
         "z": "f2ddd0dab01ea43b",
         "name": "",
-        "filename": "E:\\Aulas Node Red\\cachorro.jpg",
+        "filename": "cachorro.jpg",
         "filenameType": "str",
         "appendNewline": false,
         "createDir": false,
         "overwriteFile": "false",
         "encoding": "none",
-        "x": 370,
+        "x": 310,
         "y": 120,
         "wires": [
             [
@@ -2654,7 +2654,7 @@
         "headers": {
             "content-type": "image/zip"
         },
-        "x": 590,
+        "x": 730,
         "y": 300,
         "wires": []
     },
@@ -2663,13 +2663,13 @@
         "type": "file",
         "z": "f2ddd0dab01ea43b",
         "name": "",
-        "filename": "E:\\Aulas Node Red\\cachorro.rar",
+        "filename": "cachorro.rar",
         "filenameType": "str",
         "appendNewline": false,
         "createDir": false,
         "overwriteFile": "false",
         "encoding": "none",
-        "x": 370,
+        "x": 310,
         "y": 300,
         "wires": [
             [
@@ -2734,7 +2734,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Node-RED Aula 20</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  </head>\n  <body>\n    <header>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto my-5\">\n                <h1>Curso de Node-Red - Aula 20</h1>\n            </div>\n        </div>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto\">\n                <p>Olá, {{payload.name}}</p>\n                <a href=\"http://127.0.0.1:5500/proj-aulasnodered/pi/github/node-red_docker/node-red/pages/form.html\">Voltar</a>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n  </body>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Node-RED Aula 20</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  </head>\n  <body>\n    <header>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto my-5\">\n                <h1>Aula 20</h1>\n            </div>\n        </div>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto text-center\">\n                <h2>Olá, {{payload.name}}</h2>\n                <a class=\"btn btn-secondary my-3\" href=\"http://127.0.0.1:5500/proj-aulasnodered/pi/github/node-red_docker/node-red/pages/form.html\">Voltar</a>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n  </body>\n</html>",
         "output": "str",
         "x": 300,
         "y": 120,
@@ -2827,7 +2827,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Node-RED Aula 20</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  </head>\n  <body>\n    <header>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto my-5\">\n                <h1>Curso de Node-Red - Aula 21</h1>\n            </div>\n        </div>\n    </header>\n    <main>\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-auto\">\n                <h2>Cookies</h2>\n                <a href=\"/api-cookies/add\">Adicionar</a>\n                <pre>{{payload}}</pre>\n            </div>\n        </div>\n    </main>\n    <footer>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n    </footer>\n  </body>\n</html>\n",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"#\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n        <h1>Aula 21</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <div class=\"text-center\">\n          <h2>Cookies</h2>\n          <a class=\"btn btn-secondary\" href=\"/api-cookies/add\">Adicionar</a>\n        </div>\n        <pre>{{payload}}</pre>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
         "x": 520,
         "y": 120,
@@ -2842,7 +2842,7 @@
         "type": "function",
         "z": "f13c06462febccb0",
         "name": "function 14",
-        "func": "msg.cookies={}\nmsg.cookies[\"cfcursos - \" + (Math.floor(Math.random()*1000))]=Date.now()\nreturn msg;",
+        "func": "msg.cookies={}\nmsg.cookies[\"curso - \" + (Math.floor(Math.random()*1000))]=Date.now()\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2901,9 +2901,9 @@
         "id": "149e735b6742defc",
         "type": "comment",
         "z": "f13c06462febccb0",
-        "name": "endpoint",
+        "name": "http://localhost:1880/api-cookies",
         "info": "http://localhost:1880/api-cookies",
-        "x": 100,
+        "x": 170,
         "y": 40,
         "wires": []
     },
@@ -4604,10 +4604,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Curso de Node-RED</title>\n  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Lista de nomes</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center my-5 w-auto m-auto\" id=\"data\"></div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n  <script>\n    const getAllNames = async () => {\n      const response = await fetch('http://localhost:1880/consultar')\n      if (response.status == 200) {\n        const responseJson = await response.json()\n        responseJson.map(\n          (data) => {\n            document.getElementById('data').innerHTML += \"<div class='col-sm-10 col-md-4 col-lg-3 col-xl-2'><div class='card p-0 m-2'><div class='card-header'>ID: \" + data.id + \"</div><div class='card-body d-flex'><h5 class='card-title w-75 m-0'>\" + data.name + \"</h5><form action='http://localhost:1880/inicio/deletar' method='POST' class='m-auto'><input type='hidden' name='id' value=\" + data.id + \"><button class='btn btn-secondary' type='submit'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-trash' viewBox='0 0 16 16'><path d='M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z'/><path d='M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z'/></svg></button></form></div></div></div>\"\n          }\n        )\n      } else if (response.status == 204) {\n        document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>Aviso</div><div class='card-body'><h5 class='card-title'>Sem nomes registrados, aproveite e registre o primeiro nome.</h5></div></div>\"\n      } else {\n        document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>Erro</div><div class='card-body'><h5 class='card-title'>Não foi possível consultar os dados solicitados, tente novamente</h5></div></div>\"\n      }\n    }\n    getAllNames()\n  </script>\n</body>\n</html>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Curso de Node-RED</title>\n  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n  <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Lista de nomes</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center my-5 w-auto m-auto\" id=\"data\"></div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n  <script>\n    const getAllNames = async () => {\n      const response = await fetch('http://localhost:1880/consultar')\n      if (response.status == 200) {\n        const responseJson = await response.json()\n        responseJson.map(\n          (data) => {\n            document.getElementById('data').innerHTML += \"<div class='col-sm-10 col-md-4 col-lg-3 col-xl-2'><div class='card p-0 m-2'><div class='card-header'>ID: \" + data.id + \"</div><div class='card-body d-flex'><h5 class='card-title w-75 m-0'>\" + data.name + \"</h5><a class='btn btn-secondary mx-1' href='http://localhost:1880/inicio/atualizar'><i class='bi bi-pencil-square'></i></a></form><form action='http://localhost:1880/inicio/deletar' method='POST' class='m-auto'><input type='hidden' name='id' value=\" + data.id + \"><button class='btn btn-secondary' type='submit'><i class='bi bi-trash'></i></button></form></div></div></div>\"\n          }\n        )\n      } else if (response.status == 204) {\n        document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>Aviso</div><div class='card-body'><h5 class='card-title'>Sem nomes registrados, aproveite e registre o primeiro nome.</h5></div></div>\"\n      } else {\n        document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>Erro</div><div class='card-body'><h5 class='card-title'>Não foi possível consultar os dados solicitados, tente novamente</h5></div></div>\"\n      }\n    }\n    getAllNames()\n  </script>\n</body>\n</html>",
         "output": "str",
-        "x": 1320,
-        "y": 520,
+        "x": 1160,
+        "y": 420,
         "wires": [
             [
                 "8cb82e15e49d9e41"
@@ -4623,9 +4623,9 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Adicionar</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <form action=\"http://127.0.0.1:1880/inicio/adicionar\" method=\"POST\">\n          <div class=\"form-group\">\n            <label for=\"name\" class=\"my-2\">Nome:</label>\n            <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" required>\n          </div>\n          <div class=\"form-group\">\n            <input type=\"submit\" value=\"Salvar\" class=\"btn btn-success my-5 w-100 shadow\">\n          </div>\n        </form>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Adicionar</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <form action=\"http://127.0.0.1:1880/inicio/adicionar\" method=\"POST\">\n          <div class=\"form-group\">\n            <label for=\"name\" class=\"my-2\">Nome:</label>\n            <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" required>\n          </div>\n          <div class=\"form-group\">\n            <input type=\"submit\" value=\"Salvar\" class=\"btn btn-success my-5 w-100 shadow\">\n          </div>\n        </form>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
-        "x": 260,
+        "x": 500,
         "y": 120,
         "wires": [
             [
@@ -4640,7 +4640,7 @@
         "name": "response",
         "statusCode": "200",
         "headers": {},
-        "x": 1500,
+        "x": 1320,
         "y": 120,
         "wires": []
     },
@@ -4654,10 +4654,10 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 260,
+        "y": 240,
         "wires": [
             [
-                "cd7a614cc485d98f"
+                "cecdcf59767c33ad"
             ]
         ]
     },
@@ -4674,7 +4674,7 @@
         "y": 120,
         "wires": [
             [
-                "5ecd425c2fd889d5"
+                "23d4f5d90e1855e0"
             ]
         ]
     },
@@ -4682,32 +4682,32 @@
         "id": "2c776c4db6fc2d6d",
         "type": "switch",
         "z": "ec8128327cee15c9",
-        "name": "",
+        "name": "error",
         "property": "erro",
         "propertyType": "msg",
         "rules": [
             {
                 "t": "eq",
-                "v": "0",
+                "v": "1",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "1",
+                "v": "0",
                 "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 630,
-        "y": 200,
+        "x": 510,
+        "y": 240,
         "wires": [
             [
-                "381dfc9315f9d0fb"
+                "5699557b91e225b8"
             ],
             [
-                "5699557b91e225b8"
+                "cd7a614cc485d98f"
             ]
         ]
     },
@@ -4722,30 +4722,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 160,
+        "x": 840,
+        "y": 240,
         "wires": [
             [
                 "64a67336df9c7bc7"
-            ]
-        ]
-    },
-    {
-        "id": "d994c6a2a87a2520",
-        "type": "function",
-        "z": "ec8128327cee15c9",
-        "name": "test name",
-        "func": "let name = msg.req.body.name\n\nif (\n    name == null\n    || name.lenght == 0\n    || name == \"\"\n    || name == \"null\"\n    ) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 480,
-        "y": 200,
-        "wires": [
-            [
-                "2c776c4db6fc2d6d"
             ]
         ]
     },
@@ -4755,8 +4736,8 @@
         "z": "ec8128327cee15c9",
         "mydb": "1496ceccdb9299d5",
         "name": "",
-        "x": 1160,
-        "y": 460,
+        "x": 1000,
+        "y": 300,
         "wires": [
             [
                 "d7a61111310d1874"
@@ -4767,15 +4748,15 @@
         "id": "5699557b91e225b8",
         "type": "template",
         "z": "ec8128327cee15c9",
-        "name": "",
+        "name": "erro",
         "field": "payload",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Erro!</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <img src=\"https://http.cat/images/204.jpg\" alt=\"Erro 204 - gatos olhando o pote de comida vazio\" class=\"shadow\">\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Erro!</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <img src=\"https://http.cat/images/204.jpg\" alt=\"Erro 204 - gatos olhando o pote de comida vazio\" class=\"shadow\">\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
-        "x": 800,
-        "y": 260,
+        "x": 670,
+        "y": 180,
         "wires": [
             [
                 "8cb82e15e49d9e41"
@@ -4793,63 +4774,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 950,
-        "y": 380,
+        "x": 830,
+        "y": 300,
         "wires": [
             [
                 "64a67336df9c7bc7"
-            ]
-        ]
-    },
-    {
-        "id": "fc7bb16c71be0b68",
-        "type": "function",
-        "z": "ec8128327cee15c9",
-        "name": "test id",
-        "func": "let id = msg.req.body.id\n\nif (\n    id == null\n    || id.lenght == 0\n    || id == \"\"\n    || id == \"null\"\n    || !Number.isInteger(Number.parseInt(id))\n    ) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 470,
-        "y": 320,
-        "wires": [
-            [
-                "94b2d7cd22d53ebe"
-            ]
-        ]
-    },
-    {
-        "id": "94b2d7cd22d53ebe",
-        "type": "switch",
-        "z": "ec8128327cee15c9",
-        "name": "",
-        "property": "erro",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 630,
-        "y": 320,
-        "wires": [
-            [
-                "5699557b91e225b8"
-            ],
-            [
-                "dce2bad13205293f"
             ]
         ]
     },
@@ -4863,7 +4792,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 520,
+        "y": 420,
         "wires": [
             [
                 "d7a61111310d1874"
@@ -4884,7 +4813,7 @@
         "id": "cd7a614cc485d98f",
         "type": "switch",
         "z": "ec8128327cee15c9",
-        "name": "",
+        "name": "ação",
         "property": "req.params.entrada",
         "propertyType": "msg",
         "rules": [
@@ -4897,19 +4826,27 @@
                 "t": "eq",
                 "v": "deletar",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "atualizar",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 2,
-        "x": 310,
-        "y": 260,
+        "outputs": 3,
+        "x": 670,
+        "y": 300,
         "wires": [
             [
-                "d994c6a2a87a2520"
+                "381dfc9315f9d0fb"
             ],
             [
-                "fc7bb16c71be0b68"
+                "dce2bad13205293f"
+            ],
+            [
+                "da744d8ab915d78a"
             ]
         ]
     },
@@ -4920,8 +4857,82 @@
         "name": "A consulta ao banco de dados está na aula 38",
         "info": "",
         "x": 210,
-        "y": 460,
+        "y": 360,
         "wires": []
+    },
+    {
+        "id": "cecdcf59767c33ad",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "getIdOrName",
+        "func": "let name = msg.req.body.name;\nlet idBody = msg.req.body.id || null;\nlet idQueryString = msg.req.paramets.id || null;\nlet entrada = msg.req.paramets.entrada;\nlet id = null;\n\nif (idBody != null) {\n    id = idBody;\n} else if (idQueryString != null) {\n    id = idQueryString;\n} else {\n    return msg.erro == 1;\n}\n\nif (entrada == 'deletar' || entrada == 'atualizar') {\n    if (\n        id == null\n        || id.lenght == 0\n        || id == \"\"\n        || id == \"null\"\n        || !Number.isInteger(Number.parseInt(id))\n    ) {\n        msg.erro = 1;\n    } else {\n        msg.erro = 0;\n    }\n} else if (entrada == 'adicionar') {\n    if (\n        name == null\n        || name.lenght == 0\n        || name == \"\"\n        || name == \"null\"\n    ) {\n        msg.erro = 1;\n    } else {\n        msg.erro = 0;\n    }\n} else {\n    msg.erro = 1;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 240,
+        "wires": [
+            [
+                "2c776c4db6fc2d6d"
+            ]
+        ]
+    },
+    {
+        "id": "da744d8ab915d78a",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "update",
+        "func": "let id = msg.req.body.id\nlet name = msg.req.body.name\n\nmsg.topic = \"UPDATE `nodered`.`users` SET name='\" + name + \"' WHERE id='\" + id + \"')\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 360,
+        "wires": [
+            [
+                "64a67336df9c7bc7"
+            ]
+        ]
+    },
+    {
+        "id": "5c3be34073e69db6",
+        "type": "http in",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "url": "/inicio/atualizar/:id",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "23d4f5d90e1855e0"
+            ]
+        ]
+    },
+    {
+        "id": "23d4f5d90e1855e0",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "getId",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 120,
+        "wires": [
+            [
+                "5ecd425c2fd889d5"
+            ]
+        ]
     },
     {
         "id": "2f20ed0975b91368",

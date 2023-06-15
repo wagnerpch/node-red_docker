@@ -29,18 +29,18 @@ Contudo, esse conteúdo não corresponde exatamente ao conteúdo das aulas, algu
     <li>Aula 17 - Enviado conteúdo via requisição headers | headers.content-type | headers.access-control-allow-origin</li>
     <li>Aula 18 - Convertendo html em json com o nó 'json', passando pelo payload</li>
     <li>Aula 19 - Upload de arquivos com o nó 'write file'</li>
-    <li>Aula 20 - </li>
-    <li>Aula 21 - </li>
-    <li>Aula 22 - </li>
-    <li>Aula 23 - </li>
-    <li>Aula 24 - </li>
-    <li>Aula 25 - </li>
-    <li>Aula 26 - </li>
-    <li>Aula 27 - </li>
-    <li>Aula 28 - </li>
-    <li>Aula 29 - </li>
-    <li>Aula 30 - </li>
-    <li>Aula 31 a 36 e 39 - </li>
-    <li>Aula 37 - </li>
-    <li>Aula 38 - </li>
+    <li>Aula 20 - Página com formulário utilizando endpoint 'post' no Node-RED</li>
+    <li>Aula 21 - Alimentar a mesmo rota, ocorrendo a atualização da página</li>
+    <li>Aula 22 - Capturar conteúdo de outro site por seletor</li>
+    <li>Aula 23 - Capturar conteúdo de outro site por seletor</li>
+    <li>Aula 24 - Uso do nó 'split' e 'join'</li>
+    <li>Aula 25 - Adição do nó 'mysql', adicionando dado em banco (MySQL) e consultando os registros da tabela</li>
+    <li>Aula 26 - Adição do nó 'dashboard', usando botões de ação no dashboard</li>
+    <li>Aula 27 - Dashboard - adição de campo texto e botão de ação</li>
+    <li>Aula 28 - Dashboard - gráficos</li>
+    <li>Aula 29 - Dashboard - gráficos</li>
+    <li>Aula 30 - Dashboard - gráficos</li>
+    <li>Aula 31 a 36 e 39 - CRUD</li>
+    <li>Aula 37 - Adicionar dado no banco</li>
+    <li>Aula 38 - Consultar dado no banco</li>
 </ul>

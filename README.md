@@ -6,7 +6,7 @@
 Requisitos:
 - Docker
 
-O conteúdo dos flows está separado por aulas, pois foi elabordo seguindo as aulas ministradas por CFBCursos, gratuitamente, no canal do Youtube.
+O conteúdo dos flows está separado por aulas, pois foi elaborado seguindo as aulas ministradas por CFBCursos, gratuitamente, no canal do Youtube.
 Contudo, esse conteúdo não corresponde exatamente ao conteúdo das aulas, algums mudanças foram feitas, para testar os nodes.
 
 <ul>

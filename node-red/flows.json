@@ -4683,7 +4683,7 @@
         "type": "function",
         "z": "ec8128327cee15c9",
         "name": "create",
-        "func": "let name = msg.name\n\nmsg.topic = \"INSERT INTO`nodered`.`users`(`name`) VALUES('\" + name +\"')\";\n\nreturn msg;",
+        "func": "let name = msg.req.body.name\n\nmsg.topic = \"INSERT INTO`nodered`.`users`(`name`) VALUES('\" + name +\"')\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4856,7 +4856,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 140,
-        "y": 560,
+        "y": 500,
         "wires": [
             [
                 "088088fedc403e2f"
@@ -4872,10 +4872,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Adicionar</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <form action=\"http://127.0.0.1:1880/inicio/atualizar/\" method=\"POST\">\n          <div class=\"form-group\">\n            <label for=\"name\" class=\"my-2\">Nome:</label>\n            <input type=\"hidden\" id=\"id\" name=\"id\" value=\"{{id}}\"required>\n            <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" value=\"{{name}}\"required>\n          </div>\n          <div class=\"form-group\">\n            <input type=\"submit\" value=\"Salvar\" class=\"btn btn-success my-5 w-100 shadow\">\n          </div>\n        </form>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Atualizando...</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <form action=\"http://127.0.0.1:1880/inicio/atualizar/\" method=\"POST\">\n          <div class=\"form-group\">\n            <label for=\"name\" class=\"my-2\">Nome:</label>\n            <input type=\"hidden\" id=\"id\" name=\"id\" value=\"{{payload.id}}\" required>\n            <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" value=\"{{payload}}\" required>\n          </div>\n          <div class=\"form-group\">\n            <input type=\"submit\" value=\"Salvar\" class=\"btn btn-success my-5 w-100 shadow\">\n          </div>\n        </form>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
-        "x": 1370,
-        "y": 600,
+        "x": 1310,
+        "y": 540,
         "wires": [
             [
                 "8cb82e15e49d9e41"
@@ -4886,7 +4886,7 @@
         "id": "4126c834e5ce81f9",
         "type": "function",
         "z": "ec8128327cee15c9",
-        "name": "getID",
+        "name": "getId",
         "func": "let id = msg.req.body.id;\n\nif (\n    id != null\n    || id.lenght != 0\n    || id != \"\"\n    || id != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
@@ -5027,14 +5027,14 @@
         "type": "function",
         "z": "ec8128327cee15c9",
         "name": "getID",
-        "func": "let id = msg.req.params.id;\n\nif (\n    id != null\n    || id.lenght != 0\n    || id != \"\"\n    || id != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "func": "let id = msg.req.params.id\n\nif (\n    id != null\n    || id.lenght() != 0\n    || id != \"\"\n    || id != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 560,
+        "y": 500,
         "wires": [
             [
                 "f94e1b83743c1f61"
@@ -5051,12 +5051,12 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "1",
+                "v": "0",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "0",
+                "v": "1",
                 "vt": "str"
             }
         ],
@@ -5064,7 +5064,7 @@
         "repair": false,
         "outputs": 2,
         "x": 510,
-        "y": 560,
+        "y": 500,
         "wires": [
             [
                 "5699557b91e225b8"
@@ -5080,11 +5080,11 @@
         "z": "ec8128327cee15c9",
         "mydb": "1496ceccdb9299d5",
         "name": "",
-        "x": 1180,
-        "y": 600,
+        "x": 1020,
+        "y": 540,
         "wires": [
             [
-                "817f38f9d0b9f92d"
+                "1d5e0f4a17e287b4"
             ]
         ]
     },
@@ -5093,14 +5093,14 @@
         "type": "function",
         "z": "ec8128327cee15c9",
         "name": "read",
-        "func": "let id = msg.req.params.id\n\nmsg.topic = \"SELECT * FROM `nodered`.`users` WHERE `id`= \" + id + \" desc\";\n\nreturn msg;",
+        "func": "let id = msg.req.params.id\n\nmsg.topic = \"SELECT * FROM `nodered`.`users` WHERE `users`.`id`=\" + id + \"\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 600,
+        "x": 870,
+        "y": 540,
         "wires": [
             [
                 "a509a9a341400689"
@@ -5127,37 +5127,34 @@
         "id": "c7435d440c9157c5",
         "type": "function",
         "z": "ec8128327cee15c9",
-        "name": "getID",
-        "func": "let id = msg.req.body.id;\n\nif (\n    id != null\n    || id.lenght != 0\n    || id != \"\"\n    || id != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "name": "getIdAndName",
+        "func": "let id = msg.req.body.id;\nlet name = msg.req.body.name;\n\nif (\n    id != null\n    || id.lenght != 0\n    || id != \"\"\n    || id != \"null\"\n    || name != null\n    || name.lenght != 0\n    || name != \"\"\n    || name != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
-        "y": 420,
-        "wires": [
-            [
-                "0318f9294cad334f"
-            ]
-        ]
-    },
-    {
-        "id": "0318f9294cad334f",
-        "type": "function",
-        "z": "ec8128327cee15c9",
-        "name": "getName",
-        "func": "let name = msg.req.body.name;\n\nif (\n    name != null\n    || name.lenght != 0\n    || name != \"\"\n    || name != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
+        "x": 500,
         "y": 420,
         "wires": [
             [
                 "88435e7c218e9af0"
+            ]
+        ]
+    },
+    {
+        "id": "1d5e0f4a17e287b4",
+        "type": "json",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1170,
+        "y": 540,
+        "wires": [
+            [
+                "817f38f9d0b9f92d"
             ]
         ]
     },

@@ -4604,10 +4604,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Curso de Node-RED</title>\n  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n  <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Lista de nomes</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center my-5 w-auto m-auto\" id=\"data\"></div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n  <script>\n    const getAllNames = async () => {\n      const response = await fetch('http://localhost:1880/consultar')\n      if (response.status == 200) {\n        const responseJson = await response.json()\n        responseJson.map(\n          (data) => {\n            document.getElementById('data').innerHTML += \"<div class='col-sm-10 col-md-4 col-lg-3 col-xl-2'><div class='card p-0 m-2'><div class='card-header'>ID: \" + data.id + \"</div><div class='card-body d-flex'><h5 class='card-title w-75 m-0'>\" + data.name + \"</h5><a class='btn btn-secondary mx-1' href='http://localhost:1880/inicio/atualizar'><i class='bi bi-pencil-square'></i></a></form><form action='http://localhost:1880/inicio/deletar' method='POST' class='m-auto'><input type='hidden' name='id' value=\" + data.id + \"><button class='btn btn-secondary' type='submit'><i class='bi bi-trash'></i></button></form></div></div></div>\"\n          }\n        )\n      } else if (response.status == 204) {\n        document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>Aviso</div><div class='card-body'><h5 class='card-title'>Sem nomes registrados, aproveite e registre o primeiro nome.</h5></div></div>\"\n      } else {\n        document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>Erro</div><div class='card-body'><h5 class='card-title'>Não foi possível consultar os dados solicitados, tente novamente</h5></div></div>\"\n      }\n    }\n    getAllNames()\n  </script>\n</body>\n</html>",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Curso de Node-RED</title>\n  <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n  <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Lista de nomes</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center my-5 w-auto m-auto\" id=\"data\"></div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n  <script>\n    const getAllNames = async () => {\n      const response = await fetch('http://localhost:1880/consultar')\n      if (response.status == 200) {\n        const responseJson = await response.json()\n        responseJson.map(\n          (data) => {\n            document.getElementById('data').innerHTML += \"<div class='col-sm-10 col-md-4 col-lg-3 col-xl-2'><div class='card p-0 m-2'><div class='card-header'>ID: \" + data.id + \"</div><div class='card-body d-flex'><h5 class='card-title w-75 m-0'>\" + data.name + \"</h5><a class='btn btn-secondary mx-1' href='http://localhost:1880/inicio/atualizar/\" + data.id + \"'><i class='bi bi-pencil-square'></i></a></form><form action='http://localhost:1880/inicio/deletar' method='POST' class='m-auto'><input type='hidden' name='id' value=\" + data.id + \"><button class='btn btn-secondary' type='submit'><i class='bi bi-trash'></i></button></form></div></div></div>\"\n          }\n        )\n      } else if (response.status == 204) {\n        document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>Aviso</div><div class='card-body'><h5 class='card-title'>Sem nomes registrados, aproveite e registre o primeiro nome.</h5></div></div>\"\n      } else {\n        document.getElementById('data').innerHTML += \"<div class='card w-25 p-0 m-2'><div class='card-header'>Erro</div><div class='card-body'><h5 class='card-title'>Não foi possível consultar os dados solicitados, tente novamente</h5></div></div>\"\n      }\n    }\n    getAllNames()\n  </script>\n</body>\n</html>",
         "output": "str",
-        "x": 1160,
-        "y": 420,
+        "x": 1320,
+        "y": 200,
         "wires": [
             [
                 "8cb82e15e49d9e41"
@@ -4625,8 +4625,8 @@
         "syntax": "mustache",
         "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Adicionar</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <form action=\"http://127.0.0.1:1880/inicio/adicionar\" method=\"POST\">\n          <div class=\"form-group\">\n            <label for=\"name\" class=\"my-2\">Nome:</label>\n            <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" required>\n          </div>\n          <div class=\"form-group\">\n            <input type=\"submit\" value=\"Salvar\" class=\"btn btn-success my-5 w-100 shadow\">\n          </div>\n        </form>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
-        "x": 500,
-        "y": 120,
+        "x": 1320,
+        "y": 100,
         "wires": [
             [
                 "8cb82e15e49d9e41"
@@ -4640,8 +4640,8 @@
         "name": "response",
         "statusCode": "200",
         "headers": {},
-        "x": 1320,
-        "y": 120,
+        "x": 1520,
+        "y": 380,
         "wires": []
     },
     {
@@ -4654,10 +4654,10 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 240,
+        "y": 360,
         "wires": [
             [
-                "cecdcf59767c33ad"
+                "cd7a614cc485d98f"
             ]
         ]
     },
@@ -4671,43 +4671,10 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 100,
-        "y": 120,
+        "y": 100,
         "wires": [
             [
-                "23d4f5d90e1855e0"
-            ]
-        ]
-    },
-    {
-        "id": "2c776c4db6fc2d6d",
-        "type": "switch",
-        "z": "ec8128327cee15c9",
-        "name": "error",
-        "property": "erro",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 510,
-        "y": 240,
-        "wires": [
-            [
-                "5699557b91e225b8"
-            ],
-            [
-                "cd7a614cc485d98f"
+                "5ecd425c2fd889d5"
             ]
         ]
     },
@@ -4715,15 +4682,15 @@
         "id": "381dfc9315f9d0fb",
         "type": "function",
         "z": "ec8128327cee15c9",
-        "name": "insert into",
-        "func": "let name = msg.req.body.name\n\nmsg.topic = \"INSERT INTO`nodered`.`users`(`name`) VALUES('\" + name +\"')\";\n\nreturn msg;",
+        "name": "create",
+        "func": "let name = msg.name\n\nmsg.topic = \"INSERT INTO`nodered`.`users`(`name`) VALUES('\" + name +\"')\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 840,
-        "y": 240,
+        "x": 1150,
+        "y": 260,
         "wires": [
             [
                 "64a67336df9c7bc7"
@@ -4736,8 +4703,8 @@
         "z": "ec8128327cee15c9",
         "mydb": "1496ceccdb9299d5",
         "name": "",
-        "x": 1000,
-        "y": 300,
+        "x": 1320,
+        "y": 320,
         "wires": [
             [
                 "d7a61111310d1874"
@@ -4755,11 +4722,11 @@
         "syntax": "mustache",
         "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Erro!</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <img src=\"https://http.cat/images/204.jpg\" alt=\"Erro 204 - gatos olhando o pote de comida vazio\" class=\"shadow\">\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
         "output": "str",
-        "x": 670,
-        "y": 180,
+        "x": 1010,
+        "y": 460,
         "wires": [
             [
-                "8cb82e15e49d9e41"
+                "c8d0969e26da7541"
             ]
         ]
     },
@@ -4774,8 +4741,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 300,
+        "x": 1150,
+        "y": 340,
         "wires": [
             [
                 "64a67336df9c7bc7"
@@ -4792,7 +4759,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 420,
+        "y": 200,
         "wires": [
             [
                 "d7a61111310d1874"
@@ -4836,17 +4803,17 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 670,
-        "y": 300,
+        "x": 310,
+        "y": 360,
         "wires": [
             [
-                "381dfc9315f9d0fb"
+                "b3866e58a5f7f9f0"
             ],
             [
-                "dce2bad13205293f"
+                "4126c834e5ce81f9"
             ],
             [
-                "da744d8ab915d78a"
+                "c7435d440c9157c5"
             ]
         ]
     },
@@ -4857,27 +4824,8 @@
         "name": "A consulta ao banco de dados está na aula 38",
         "info": "",
         "x": 210,
-        "y": 360,
+        "y": 160,
         "wires": []
-    },
-    {
-        "id": "cecdcf59767c33ad",
-        "type": "function",
-        "z": "ec8128327cee15c9",
-        "name": "getIdOrName",
-        "func": "let name = msg.req.body.name;\nlet idBody = msg.req.body.id || null;\nlet idQueryString = msg.req.paramets.id || null;\nlet entrada = msg.req.paramets.entrada;\nlet id = null;\n\nif (idBody != null) {\n    id = idBody;\n} else if (idQueryString != null) {\n    id = idQueryString;\n} else {\n    return msg.erro == 1;\n}\n\nif (entrada == 'deletar' || entrada == 'atualizar') {\n    if (\n        id == null\n        || id.lenght == 0\n        || id == \"\"\n        || id == \"null\"\n        || !Number.isInteger(Number.parseInt(id))\n    ) {\n        msg.erro = 1;\n    } else {\n        msg.erro = 0;\n    }\n} else if (entrada == 'adicionar') {\n    if (\n        name == null\n        || name.lenght == 0\n        || name == \"\"\n        || name == \"null\"\n    ) {\n        msg.erro = 1;\n    } else {\n        msg.erro = 0;\n    }\n} else {\n    msg.erro = 1;\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 240,
-        "wires": [
-            [
-                "2c776c4db6fc2d6d"
-            ]
-        ]
     },
     {
         "id": "da744d8ab915d78a",
@@ -4890,8 +4838,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 360,
+        "x": 1150,
+        "y": 300,
         "wires": [
             [
                 "64a67336df9c7bc7"
@@ -4908,29 +4856,308 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 140,
-        "y": 180,
+        "y": 560,
         "wires": [
             [
-                "23d4f5d90e1855e0"
+                "088088fedc403e2f"
             ]
         ]
     },
     {
-        "id": "23d4f5d90e1855e0",
+        "id": "817f38f9d0b9f92d",
+        "type": "template",
+        "z": "ec8128327cee15c9",
+        "name": "editar",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"pt-BR\" data-bs-theme=\"dark\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Curso de Node-RED</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css\">\n    <style>{{css}}</style>\n</head>\n<body>\n  <header>\n    <nav class=\"navbar navbar-expand-lg bg-body-tertiary\">\n      <div class=\"container-fluid\">\n        <a class=\"navbar-brand\" href=\"http://127.0.0.1:1880/inicio\">Node-RED</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" aria-current=\"page\" href=\"http://127.0.0.1:1880/inicio\">Adicionar</a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"http://127.0.0.1:1880/inicio/consultar\">Consultar</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n  </header>\n  <main>\n    <div class=\"row justify-content-center align-items-center my-5\">\n      <div class=\"col-auto\">\n          <h1>Adicionar</h1>\n      </div>\n    </div>\n    <div class=\"row justify-content-center align-items-center\">\n      <div class=\"col-auto\">\n        <form action=\"http://127.0.0.1:1880/inicio/atualizar/\" method=\"POST\">\n          <div class=\"form-group\">\n            <label for=\"name\" class=\"my-2\">Nome:</label>\n            <input type=\"hidden\" id=\"id\" name=\"id\" value=\"{{id}}\"required>\n            <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\" value=\"{{name}}\"required>\n          </div>\n          <div class=\"form-group\">\n            <input type=\"submit\" value=\"Salvar\" class=\"btn btn-success my-5 w-100 shadow\">\n          </div>\n        </form>\n      </div>\n    </div>\n  </main>\n  <footer>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe\" crossorigin=\"anonymous\"></script>\n  </footer>\n</body>\n</html>",
+        "output": "str",
+        "x": 1370,
+        "y": 600,
+        "wires": [
+            [
+                "8cb82e15e49d9e41"
+            ]
+        ]
+    },
+    {
+        "id": "4126c834e5ce81f9",
         "type": "function",
         "z": "ec8128327cee15c9",
-        "name": "getId",
-        "func": "\nreturn msg;",
+        "name": "getID",
+        "func": "let id = msg.req.body.id;\n\nif (\n    id != null\n    || id.lenght != 0\n    || id != \"\"\n    || id != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 120,
+        "x": 470,
+        "y": 360,
         "wires": [
             [
-                "5ecd425c2fd889d5"
+                "88435e7c218e9af0"
+            ]
+        ]
+    },
+    {
+        "id": "b3866e58a5f7f9f0",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "getName",
+        "func": "let name = msg.req.body.name;\n\nif (\n    name != null\n    || name.lenght != 0\n    || name != \"\"\n    || name != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 300,
+        "wires": [
+            [
+                "88435e7c218e9af0"
+            ]
+        ]
+    },
+    {
+        "id": "c8d0969e26da7541",
+        "type": "change",
+        "z": "ec8128327cee15c9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "status",
+                "pt": "msg",
+                "to": "204",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 460,
+        "wires": [
+            [
+                "8cb82e15e49d9e41"
+            ]
+        ]
+    },
+    {
+        "id": "88435e7c218e9af0",
+        "type": "switch",
+        "z": "ec8128327cee15c9",
+        "name": "error",
+        "property": "erro",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 850,
+        "y": 360,
+        "wires": [
+            [
+                "bdd50b0fa1af4efc"
+            ],
+            [
+                "5699557b91e225b8",
+                "371a71b48898b2ea"
+            ]
+        ]
+    },
+    {
+        "id": "bdd50b0fa1af4efc",
+        "type": "switch",
+        "z": "ec8128327cee15c9",
+        "name": "ação",
+        "property": "req.params.entrada",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "adicionar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "atualizar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "deletar",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 1010,
+        "y": 300,
+        "wires": [
+            [
+                "381dfc9315f9d0fb"
+            ],
+            [
+                "da744d8ab915d78a"
+            ],
+            [
+                "dce2bad13205293f"
+            ]
+        ]
+    },
+    {
+        "id": "088088fedc403e2f",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "getID",
+        "func": "let id = msg.req.params.id;\n\nif (\n    id != null\n    || id.lenght != 0\n    || id != \"\"\n    || id != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 560,
+        "wires": [
+            [
+                "f94e1b83743c1f61"
+            ]
+        ]
+    },
+    {
+        "id": "f94e1b83743c1f61",
+        "type": "switch",
+        "z": "ec8128327cee15c9",
+        "name": "error",
+        "property": "erro",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 510,
+        "y": 560,
+        "wires": [
+            [
+                "5699557b91e225b8"
+            ],
+            [
+                "17d5f72e06c3eea6"
+            ]
+        ]
+    },
+    {
+        "id": "a509a9a341400689",
+        "type": "mysql",
+        "z": "ec8128327cee15c9",
+        "mydb": "1496ceccdb9299d5",
+        "name": "",
+        "x": 1180,
+        "y": 600,
+        "wires": [
+            [
+                "817f38f9d0b9f92d"
+            ]
+        ]
+    },
+    {
+        "id": "17d5f72e06c3eea6",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "read",
+        "func": "let id = msg.req.params.id\n\nmsg.topic = \"SELECT * FROM `nodered`.`users` WHERE `id`= \" + id + \" desc\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 600,
+        "wires": [
+            [
+                "a509a9a341400689"
+            ]
+        ]
+    },
+    {
+        "id": "371a71b48898b2ea",
+        "type": "debug",
+        "z": "ec8128327cee15c9",
+        "name": "debug 32",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c7435d440c9157c5",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "getID",
+        "func": "let id = msg.req.body.id;\n\nif (\n    id != null\n    || id.lenght != 0\n    || id != \"\"\n    || id != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 420,
+        "wires": [
+            [
+                "0318f9294cad334f"
+            ]
+        ]
+    },
+    {
+        "id": "0318f9294cad334f",
+        "type": "function",
+        "z": "ec8128327cee15c9",
+        "name": "getName",
+        "func": "let name = msg.req.body.name;\n\nif (\n    name != null\n    || name.lenght != 0\n    || name != \"\"\n    || name != \"null\"\n) {\n    msg.erro = 1;\n} else {\n    msg.erro = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 420,
+        "wires": [
+            [
+                "88435e7c218e9af0"
             ]
         ]
     },

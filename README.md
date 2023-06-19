@@ -1,10 +1,40 @@
 # node-red_docker
+
 <h1>Node-RED com MySQL e Docker</h1>
 
-<h3>Objetivo: rodar o Node-RED no container do Docker com MySQL</h3>
-
-Requisitos:
+###**Requisitos utilizados:**
 - Docker
+- WSL do Windows
+- Compose
+
+###**A docker compose desse projeto dois containers: Node-RED e MySQL**
+
+###**Passo a passo para clonar o repositório:**
+
+1) Criar pasta
+> shell: ```mkdir <nome_da_pasta>```
+
+2) Abrir Terminal (shell) ou VsCode
+> shell: ```code .```
+
+3) Clonar o projeto com credencial e senha de rede da Supera
+> shell: ```git clone https://code.supera.com.br/wagner.cordeiro/node-red.git```
+
+4) Iniciar container:
+> shell: ```docker compose up -d --build```
+
+5) Acessar a aplicação no navegador com http://localhost:1880/
+
+**Importante:**
+Para usar o nó MySQL, é necessário obter o número do ip do container para configurar o nó.
+
+Digite o seguinte comando no terminal:
+
+> docker inspect mysqlcompose
+
+Procure a linha "Gateway": "NNN.NN.N.N"
+
+<h3>Objetivo: rodar o Node-RED no container do Docker com MySQL</h3>
 
 O conteúdo dos flows está separado por aulas, pois foi elaborado seguindo as aulas ministradas por CFBCursos, gratuitamente, no canal do Youtube.
 Contudo, esse conteúdo não corresponde exatamente ao conteúdo das aulas, algumas mudanças foram feitas, para testar os nodes.
